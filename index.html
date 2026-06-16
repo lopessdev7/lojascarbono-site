@@ -1,0 +1,3673 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ─── SEO ──────────────────────────────────────────────── -->
+  <title>Lojas Carbono — Smartphones, Acessórios e Assistência Técnica em Pindaí-BA</title>
+  <meta name="description" content="Lojas Carbono: smartphones, acessórios, assistência técnica e utilidades em geral em Pindaí-BA. Produtos originais, atendimento personalizado e preço justo no coração do sertão."/>
+  <meta name="keywords" content="celular pindaí, loja de celular pindaí, assistência técnica pindaí, smartphone bahia, iPhone pindaí, Samsung pindaí, carbono cell"/>
+  <meta name="author" content="Lojas Carbono" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.carbonocell.com.br/" />
+
+  <!-- ─── Open Graph / WhatsApp preview ───────────────────── -->
+  <meta property="og:type"        content="website" />
+  <meta property="og:url"         content="https://www.carbonocell.com.br/" />
+  <meta property="og:title"       content="Lojas Carbono — Tecnologia Premium em Pindaí-BA" />
+  <meta property="og:description" content="Smartphones, acessórios, assistência técnica e utilidades em geral. Produtos originais, atendimento personalizado e preço justo — tudo no coração do sertão." />
+  <meta property="og:image"       content="https://www.carbonocell.com.br/og-image.jpg" />
+  <meta property="og:locale"      content="pt_BR" />
+
+  <!-- ─── Twitter Card ─────────────────────────────────────── -->
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:title"       content="Lojas Carbono — Tecnologia Premium em Pindaí-BA" />
+  <meta name="twitter:description" content="Smartphones, acessórios, assistência técnica e utilidades em geral. Preço justo no coração do sertão baiano." />
+  <meta name="twitter:image"       content="https://www.carbonocell.com.br/og-image.jpg" />
+
+  <!-- ─── Theme color / PWA ────────────────────────────────── -->
+  <meta name="theme-color" content="#080808" />
+  <meta name="color-scheme" content="dark" />
+
+  <!-- ─── Structured Data (Local Business) ────────────────── -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ElectronicsStore",
+    "name": "Lojas Carbono",
+    "description": "Smartphones, acessórios, assistência técnica e utilidades em geral. Produtos originais, atendimento personalizado e preço justo — tudo no coração do sertão.",
+    "url": "https://www.carbonocell.com.br",
+    "telephone": "+55-77-99999-9999",
+    "foundingDate": "2020",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rua Tibério Fausto, 275",
+      "addressLocality": "Pindaí",
+      "addressRegion": "BA",
+      "postalCode": "46370-000",
+      "addressCountry": "BR"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "-14.4978",
+      "longitude": "-42.6839"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+        "opens": "07:00",
+        "closes": "18:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "07:00",
+        "closes": "15:00"
+      }
+    ],
+    "sameAs": [
+      "https://www.instagram.com/carbonocell_?igsh=MnJ1Y3dpdmRuaTRm",
+      "https://www.facebook.com/carbonocell"
+    ]
+  }
+  </script>
+
+  <!-- ─── Fonts ─────────────────────────────────────────────── -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <style>
+/* ═══════════════════════════════════════════════════════════════
+   CARBONO CELL — style.css
+   Design System Premium · Pindaí-BA
+   ════════════════════════════════════════════════════════════ */
+
+/* ─── RESET & BASE ──────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; min-width: 0; }
+
+/* ═══ NUCLEAR OVERFLOW FIX ═══════════════════════════════════ */
+html { overflow-x: hidden; }
+body { overflow-x: hidden; max-width: 100%; }
+main { overflow-x: hidden; width: 100%; }
+section { max-width: 100%; box-sizing: border-box; }
+.sec, .diffs, .banner, .tech, .brand-diffs,
+.testimonials, .insta, .cta-final, .footer {
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+.sec__inner, .diffs__inner, .banner__inner, .tech__inner,
+.brand-diffs__inner, .testimonials__inner, .insta__inner,
+.cta-final__inner, .footer__top, .footer__bottom {
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+/* ════════════════════════════════════════════════════════════ */
+
+
+:root {
+  --black:      #080808;
+  --surface:    #111111;
+  --card:       #1A1A1A;
+  --border:     #262626;
+  --amber:      #F5C000;
+  --amber-dim:  #B8900A;
+  --white:      #F2F2F2;
+  --muted:      #888888;
+  --font:       'Inter', system-ui, sans-serif;
+  --radius-sm:  8px;
+  --radius-md:  14px;
+  --radius-lg:  16px;
+  --radius-xl:  20px;
+  --transition: 0.25s ease;
+}
+
+html { scroll-behavior: smooth; overflow-x: hidden; }
+
+body {
+  background: var(--black);
+  color: var(--white);
+  font-family: var(--font);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+img, svg { display: block; }
+a { color: inherit; }
+
+/* ─── SCROLL REVEAL ─────────────────────────────────────────── */
+.reveal {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.reveal.visible {
+  opacity: 1;
+}
+
+/* ─── SHARED BUTTONS ────────────────────────────────────────── */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--amber);
+  color: #000;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  padding: 14px 28px;
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  transition: background var(--transition), transform var(--transition), box-shadow var(--transition);
+  white-space: nowrap;
+}
+.btn-primary:hover {
+  background: #ffd200;
+  transform: translateY(-2px);
+  box-shadow: 0 12px 40px rgba(245,192,0,0.25);
+}
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  color: var(--white);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  padding: 13px 26px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  text-decoration: none;
+  transition: border-color var(--transition), color var(--transition), transform var(--transition);
+  white-space: nowrap;
+}
+.btn-secondary:hover {
+  border-color: var(--amber);
+  color: var(--amber);
+  transform: translateY(-2px);
+}
+
+/* ─── SECTION SHARED ────────────────────────────────────────── */
+.sec {
+  position: relative;
+  padding: 0 5vw 100px;
+}
+
+.sec__amber-line {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--amber), transparent);
+  margin-bottom: 80px;
+  opacity: 0.4;
+}
+
+.sec__inner { max-width: 1280px; margin: 0 auto; }
+
+.sec__header {
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.sec__tag {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--amber);
+  margin-bottom: 14px;
+}
+
+.sec__title {
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  color: var(--white);
+  line-height: 1.1;
+}
+
+/* ════════════════════════════════════════════════════════════ */
+/* HEADER                                                       */
+/* ════════════════════════════════════════════════════════════ */
+.header {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 100;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  padding: 0 5vw;
+  transition: background 0.3s, backdrop-filter 0.3s, border-color 0.3s;
+  border-bottom: 1px solid transparent;
+}
+.header.scrolled {
+  background: rgba(8,8,8,0.86);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom-color: var(--border);
+}
+.header__inner {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+.logo__icon { width: 34px; height: 34px; flex-shrink: 0; }
+.logo__text { display: flex; flex-direction: column; line-height: 1; }
+.logo__name {
+  font-size: 15px; font-weight: 800;
+  letter-spacing: 0.12em; color: var(--white);
+  text-transform: uppercase;
+}
+.logo__sub {
+  font-size: 9px; font-weight: 500;
+  letter-spacing: 0.22em; color: var(--amber);
+  text-transform: uppercase; margin-top: 2px;
+}
+
+/* Nav */
+.nav { display: flex; align-items: center; gap: 2rem; list-style: none; }
+.nav a {
+  font-size: 13px; font-weight: 500;
+  color: var(--muted); text-decoration: none;
+  letter-spacing: 0.04em; position: relative;
+  transition: color 0.2s;
+}
+.nav a::after {
+  content: '';
+  position: absolute;
+  bottom: -3px; left: 0;
+  width: 0; height: 1.5px;
+  background: var(--amber);
+  transition: width 0.25s ease;
+}
+.nav a:hover { color: var(--white); }
+.nav a:hover::after { width: 100%; }
+
+/* Header actions */
+.header__actions { display: flex; align-items: center; gap: 12px; }
+
+.btn-whatsapp {
+  display: flex; align-items: center; gap: 7px;
+  background: var(--amber); color: #000;
+  font-size: 12px; font-weight: 700;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  padding: 9px 18px; border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.2s, transform 0.15s;
+}
+.btn-whatsapp:hover { background: #ffd200; transform: translateY(-1px); }
+.btn-whatsapp svg { flex-shrink: 0; }
+
+/* Hamburger */
+.hamburger {
+  display: none; flex-direction: column; gap: 5px;
+  cursor: pointer; background: none; border: none; padding: 4px;
+}
+.hamburger span {
+  display: block; width: 22px; height: 2px;
+  background: var(--white); border-radius: 2px;
+  transition: all 0.3s;
+}
+.hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.hamburger.open span:nth-child(2) { opacity: 0; }
+.hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+/* Mobile drawer */
+.mobile-nav {
+  display: none;
+  position: fixed;
+  top: 68px; left: 0; right: 0;
+  width: 100%;
+  background: rgba(10,10,10,0.97);
+  backdrop-filter: blur(20px);
+  padding: 2rem 5vw 2.5rem;
+  z-index: 99;
+  border-bottom: 1px solid var(--border);
+  transform: translateY(-110%);
+  transition: transform 0.35s cubic-bezier(0.4,0,0.2,1);
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.mobile-nav.open { transform: translateY(0); }
+.mobile-nav ul { list-style: none; display: flex; flex-direction: column; gap: 0; }
+.mobile-nav ul a {
+  display: block; padding: 14px 0;
+  font-size: 17px; font-weight: 600;
+  color: var(--white); text-decoration: none;
+  border-bottom: 1px solid var(--border);
+  transition: color 0.2s;
+}
+.mobile-nav ul a:hover { color: var(--amber); }
+.mobile-nav .btn-whatsapp {
+  margin-top: 1.5rem; justify-content: center;
+  padding: 14px; font-size: 14px;
+}
+
+/* ════════════════════════════════════════════════════════════ */
+/* HERO                                                         */
+/* ════════════════════════════════════════════════════════════ */
+.hero {
+  min-height: 100svh;
+  display: flex; align-items: center;
+  position: relative; overflow: hidden;
+  padding: 100px 5vw 80px;
+}
+.hero__bg { position: absolute; inset: 0; pointer-events: none; }
+.hero__grid {
+  position: absolute; inset: 0;
+  background-image:
+    linear-gradient(rgba(245,192,0,0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(245,192,0,0.04) 1px, transparent 1px);
+  background-size: 60px 60px;
+  mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, black 30%, transparent 100%);
+}
+.hero__glow {
+  position: absolute;
+  width: 700px; height: 700px; border-radius: 50%;
+  background: radial-gradient(circle, rgba(245,192,0,0.10) 0%, transparent 65%);
+  top: 50%; left: 55%;
+  transform: translate(-50%,-50%);
+  animation: glowPulse 6s ease-in-out infinite alternate;
+}
+@keyframes glowPulse {
+  from { opacity: 0.6; transform: translate(-50%,-50%) scale(1); }
+  to   { opacity: 1;   transform: translate(-50%,-50%) scale(1.08); }
+}
+.hero__inner {
+  position: relative; z-index: 1;
+  width: 100%; max-width: 1280px; margin: 0 auto;
+  display: grid; grid-template-columns: 1fr 1fr;
+  align-items: center; gap: 4rem;
+}
+.hero__content { max-width: 580px; }
+.hero__eyebrow {
+  display: inline-flex; align-items: center; gap: 8px;
+  font-size: 11px; font-weight: 700;
+  letter-spacing: 0.18em; text-transform: uppercase;
+  color: var(--amber); margin-bottom: 1.5rem;
+}
+.hero__eyebrow-dot {
+  width: 6px; height: 6px; border-radius: 50%;
+  background: var(--amber);
+  animation: blink 2s ease-in-out infinite;
+}
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.2; }
+}
+.hero__title {
+  font-size: clamp(2.6rem, 5.5vw, 5rem);
+  font-weight: 900; line-height: 1.02;
+  letter-spacing: -0.03em; color: var(--white);
+  margin-bottom: 1.5rem;
+}
+.hero__title em { font-style: normal; color: var(--amber); }
+.hero__desc {
+  font-size: clamp(1rem, 1.5vw, 1.15rem);
+  font-weight: 400; line-height: 1.65;
+  color: var(--muted); margin-bottom: 2.5rem;
+  max-width: 440px;
+}
+.hero__ctas { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; }
+
+/* Hero visual / phone */
+.hero__visual { display: flex; justify-content: center; align-items: center; position: relative; }
+.hero__device-wrap { position: relative; width: 280px; height: 560px; }
+.phone-frame { width: 100%; height: 100%; position: absolute; inset: 0; }
+.phone-screen {
+  position: absolute; top: 6%; left: 6%; width: 88%; height: 88%;
+  border-radius: 30px; overflow: hidden;
+  background: linear-gradient(160deg, #1a1a1a 0%, #0d0d0d 100%);
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center; gap: 12px;
+}
+.phone-screen__logo { width: 64px; opacity: 0.9; animation: floatY 4s ease-in-out infinite; }
+@keyframes floatY {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-10px); }
+}
+.phone-screen__label {
+  font-size: 11px; font-weight: 700;
+  letter-spacing: 0.2em; text-transform: uppercase;
+  color: var(--amber);
+}
+
+/* Orbiting rings */
+.orbit-ring {
+  position: absolute;
+  width: 420px; height: 420px; border-radius: 50%;
+  border: 1px solid rgba(245,192,0,0.12);
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+  animation: spin 24s linear infinite;
+}
+.orbit-ring::before {
+  content: '';
+  position: absolute;
+  width: 8px; height: 8px; background: var(--amber);
+  border-radius: 50%; top: -4px; left: calc(50% - 4px);
+  box-shadow: 0 0 12px 4px rgba(245,192,0,0.5);
+}
+.orbit-ring-2 {
+  position: absolute;
+  width: 340px; height: 340px; border-radius: 50%;
+  border: 1px solid rgba(245,192,0,0.07);
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+  animation: spin 18s linear infinite reverse;
+}
+@keyframes spin {
+  from { transform: translate(-50%,-50%) rotate(0deg); }
+  to   { transform: translate(-50%,-50%) rotate(360deg); }
+}
+
+/* Hero stats */
+.hero__stats {
+  display: flex; gap: 2.5rem;
+  margin-top: 3rem; padding-top: 2rem;
+  border-top: 1px solid var(--border);
+}
+.hero__stat-value { font-size: 1.6rem; font-weight: 900; color: var(--white); letter-spacing: -0.02em; }
+.hero__stat-value span { color: var(--amber); }
+.hero__stat-label {
+  font-size: 11px; font-weight: 500; color: var(--muted);
+  letter-spacing: 0.06em; text-transform: uppercase; margin-top: 2px;
+}
+
+/* ════════════════════════════════════════════════════════════ */
+/* BARRA DE DIFERENCIAIS (seção 1 — pós hero)                  */
+/* ════════════════════════════════════════════════════════════ */
+.diffs { position: relative; padding: 0 5vw 100px; overflow: hidden; }
+.diffs__amber-line {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--amber), transparent);
+  margin-bottom: 80px; opacity: 0.4;
+}
+.diffs__inner { max-width: 1280px; margin: 0 auto; }
+.diffs__header { text-align: center; margin-bottom: 60px; }
+.diffs__tag {
+  display: inline-block; font-size: 10px; font-weight: 700;
+  letter-spacing: 0.22em; text-transform: uppercase;
+  color: var(--amber); margin-bottom: 14px;
+}
+.diffs__title {
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  font-weight: 800; letter-spacing: -0.025em;
+  color: var(--white); line-height: 1.1;
+}
+.diffs__grid {
+  display: grid; grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg); overflow: hidden;
+}
+.diff-card {
+  background: var(--surface); padding: 40px 32px;
+  position: relative; transition: background var(--transition); cursor: default;
+  border-right: 1px solid var(--border);
+  box-sizing: border-box; width: 100%; min-width: 0;
+}
+.diff-card:last-child { border-right: none; }
+.diff-card::before {
+  content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
+  background: var(--amber); transform: scaleX(0); transform-origin: left;
+  transition: transform 0.35s cubic-bezier(0.4,0,0.2,1);
+}
+.diff-card:hover { background: var(--card); }
+.diff-card:hover::before { transform: scaleX(1); }
+.diff-card__icon {
+  width: 48px; height: 48px; border-radius: 12px;
+  background: rgba(245,192,0,0.08); border: 1px solid rgba(245,192,0,0.15);
+  display: flex; align-items: center; justify-content: center;
+  margin-bottom: 24px;
+  transition: background var(--transition), border-color var(--transition);
+}
+.diff-card:hover .diff-card__icon { background: rgba(245,192,0,0.14); border-color: rgba(245,192,0,0.3); }
+.diff-card__icon svg { width: 22px; height: 22px; }
+.diff-card__title { font-size: 15px; font-weight: 700; color: var(--white); margin-bottom: 10px; letter-spacing: -0.01em; }
+.diff-card__desc  { font-size: 13px; font-weight: 400; color: var(--muted); line-height: 1.6; }
+
+/* ════════════════════════════════════════════════════════════ */
+/* CATEGORIAS                                                   */
+/* ════════════════════════════════════════════════════════════ */
+.cats__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+
+.cat-card {
+  position: relative; background: var(--surface);
+  border: 1px solid var(--border); border-radius: var(--radius-lg);
+  padding: 36px 28px 32px;
+  display: flex; flex-direction: column; align-items: flex-start; gap: 16px;
+  text-decoration: none; overflow: hidden;
+  transition: border-color var(--transition), background var(--transition), transform 0.22s;
+}
+.cat-card::after {
+  content: ''; position: absolute; inset: 0;
+  background: radial-gradient(circle at 80% 20%, rgba(245,192,0,0.07) 0%, transparent 65%);
+  opacity: 0; transition: opacity 0.3s;
+}
+.cat-card:hover { border-color: rgba(245,192,0,0.35); background: var(--card); transform: translateY(-4px); }
+.cat-card:hover::after { opacity: 1; }
+.cat-card__icon {
+  width: 52px; height: 52px; border-radius: 14px;
+  background: rgba(245,192,0,0.08); border: 1px solid rgba(245,192,0,0.15);
+  display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+  transition: background var(--transition), border-color var(--transition);
+}
+.cat-card:hover .cat-card__icon { background: rgba(245,192,0,0.16); border-color: rgba(245,192,0,0.35); }
+.cat-card__icon svg { width: 24px; height: 24px; }
+.cat-card__name   { font-size: 16px; font-weight: 700; color: var(--white); letter-spacing: -0.015em; }
+.cat-card__count  { font-size: 12px; font-weight: 500; color: var(--muted); letter-spacing: 0.04em; margin-top: -8px; }
+.cat-card__arrow {
+  margin-top: auto; width: 30px; height: 30px; border-radius: 50%;
+  border: 1px solid var(--border);
+  display: flex; align-items: center; justify-content: center;
+  transition: border-color var(--transition), background var(--transition);
+}
+.cat-card:hover .cat-card__arrow { border-color: var(--amber); background: var(--amber); }
+.cat-card__arrow svg { width: 13px; height: 13px; stroke: var(--muted); transition: stroke var(--transition); }
+.cat-card:hover .cat-card__arrow svg { stroke: #000; }
+
+/* ════════════════════════════════════════════════════════════ */
+/* PRODUTOS MAIS VENDIDOS                                       */
+/* ════════════════════════════════════════════════════════════ */
+.products__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; width: 100%; }
+
+.prod-card {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius-lg); overflow: hidden;
+  display: flex; flex-direction: column;
+  min-width: 0;
+  transition: border-color var(--transition), transform 0.22s, box-shadow var(--transition);
+  text-decoration: none;
+}
+.prod-card:hover {
+  border-color: rgba(245,192,0,0.3); transform: translateY(-4px);
+  box-shadow: 0 20px 50px rgba(0,0,0,0.4), 0 0 0 1px rgba(245,192,0,0.08);
+}
+.prod-card__img {
+  aspect-ratio: 1 / 1; background: var(--card);
+  display: flex; align-items: center; justify-content: center;
+  position: relative; overflow: hidden;
+}
+.prod-card__img-inner {
+  width: 65%; height: 65%;
+  display: flex; align-items: center; justify-content: center;
+  transition: transform 0.35s cubic-bezier(0.4,0,0.2,1);
+}
+.prod-card:hover .prod-card__img-inner { transform: scale(1.06); }
+.prod-card__img-inner svg { width: 100%; height: 100%; }
+.prod-card__badge {
+  position: absolute; top: 14px; left: 14px;
+  font-size: 9px; font-weight: 800;
+  letter-spacing: 0.14em; text-transform: uppercase;
+  padding: 4px 10px; border-radius: 20px;
+}
+.prod-card__badge--new   { background: var(--amber); color: #000; }
+.prod-card__badge--hot   { background: #e53e3e; color: #fff; }
+.prod-card__badge--offer { background: #22543d; color: #9ae6b4; border: 1px solid #276749; }
+.prod-card__body {
+  padding: 20px 20px 22px;
+  display: flex; flex-direction: column; gap: 6px; flex: 1;
+}
+.prod-card__brand  { font-size: 10px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: var(--amber); }
+.prod-card__name   { font-size: 14px; font-weight: 700; color: var(--white); letter-spacing: -0.01em; line-height: 1.3; }
+.prod-card__price-row { display: flex; align-items: baseline; gap: 8px; margin-top: 6px; }
+.prod-card__price  { font-size: 18px; font-weight: 900; color: var(--white); letter-spacing: -0.02em; }
+.prod-card__price-old { font-size: 12px; font-weight: 500; color: var(--muted); text-decoration: line-through; }
+.prod-card__cta {
+  margin-top: 14px; display: flex; align-items: center; justify-content: space-between;
+  padding-top: 14px; border-top: 1px solid var(--border);
+}
+.prod-card__cta-link  { font-size: 12px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); transition: color 0.2s; }
+.prod-card:hover .prod-card__cta-link { color: var(--amber); }
+.prod-card__cta-icon {
+  width: 28px; height: 28px; border-radius: 50%;
+  background: rgba(245,192,0,0.08); border: 1px solid rgba(245,192,0,0.15);
+  display: flex; align-items: center; justify-content: center;
+  transition: background 0.2s, border-color 0.2s;
+}
+.prod-card:hover .prod-card__cta-icon { background: var(--amber); border-color: var(--amber); }
+.prod-card__cta-icon svg { width: 12px; height: 12px; stroke: var(--amber); transition: stroke 0.2s; }
+.prod-card:hover .prod-card__cta-icon svg { stroke: #000; }
+.products__footer { text-align: center; margin-top: 40px; }
+
+/* ════════════════════════════════════════════════════════════ */
+/* BANNER OFERTAS                                               */
+/* ════════════════════════════════════════════════════════════ */
+.banner { position: relative; padding: 0 5vw 100px; overflow-x: hidden; max-width: 100%; box-sizing: border-box; }
+.banner__inner { max-width: 1280px; margin: 0 auto; }
+.banner__card {
+  position: relative; border-radius: var(--radius-xl); overflow: hidden;
+  border: 1px solid var(--border); background: var(--surface);
+  min-height: 340px; display: flex; align-items: stretch;
+  max-width: 100%; box-sizing: border-box;
+}
+.banner__bg {
+  position: absolute; inset: 0;
+  background:
+    radial-gradient(ellipse 60% 80% at 75% 50%, rgba(245,192,0,0.11) 0%, transparent 60%),
+    radial-gradient(ellipse 40% 60% at 20% 80%, rgba(245,192,0,0.05) 0%, transparent 60%);
+  pointer-events: none;
+}
+.banner__grid-bg {
+  position: absolute; inset: 0;
+  background-image:
+    linear-gradient(rgba(245,192,0,0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(245,192,0,0.03) 1px, transparent 1px);
+  background-size: 40px 40px; pointer-events: none;
+}
+.banner__content {
+  position: relative; z-index: 1; flex: 1;
+  padding: 56px; display: flex; flex-direction: column;
+  justify-content: center; max-width: 560px;
+}
+.banner__eyebrow {
+  display: inline-flex; align-items: center; gap: 8px;
+  font-size: 10px; font-weight: 700;
+  letter-spacing: 0.2em; text-transform: uppercase;
+  color: var(--amber); margin-bottom: 20px;
+}
+.banner__countdown-wrap {
+  display: flex; align-items: center; gap: 6px;
+  background: rgba(245,192,0,0.08); border: 1px solid rgba(245,192,0,0.2);
+  border-radius: 6px; padding: 5px 12px;
+}
+.banner__countdown {
+  font-size: 12px; font-weight: 800; color: var(--amber);
+  font-variant-numeric: tabular-nums; letter-spacing: 0.06em; min-width: 54px;
+}
+.banner__title {
+  font-size: clamp(2rem, 3.5vw, 3rem); font-weight: 900;
+  letter-spacing: -0.03em; color: var(--white);
+  line-height: 1.05; margin-bottom: 16px;
+}
+.banner__title em { font-style: normal; color: var(--amber); }
+.banner__desc {
+  font-size: 14px; font-weight: 400; color: var(--muted);
+  line-height: 1.65; margin-bottom: 32px; max-width: 400px;
+}
+.banner__actions { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.banner__chips { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 28px; }
+.banner__chip {
+  font-size: 11px; font-weight: 600; color: var(--muted);
+  border: 1px solid var(--border); border-radius: 20px;
+  padding: 5px 14px; letter-spacing: 0.04em;
+}
+.banner__chip--highlight {
+  color: var(--amber); border-color: rgba(245,192,0,0.25);
+  background: rgba(245,192,0,0.06);
+}
+.banner__visual {
+  position: relative; flex: 0 0 42%;
+  display: flex; align-items: center; justify-content: center; padding: 40px;
+}
+.banner__phones { position: relative; width: 220px; height: 280px; }
+.banner__phone {
+  position: absolute; border-radius: 24px;
+  border: 1px solid rgba(245,192,0,0.18);
+  background: var(--card);
+  display: flex; align-items: center; justify-content: center; overflow: hidden;
+}
+.banner__phone--back  { width: 150px; height: 240px; right: 0; top: 20px; background: linear-gradient(160deg, #1e1e1e, #0d0d0d); transform: rotate(6deg); opacity: 0.7; }
+.banner__phone--front { width: 155px; height: 245px; left: 0; top: 10px; background: linear-gradient(160deg, #222, #111); transform: rotate(-4deg); animation: bannerFloat 5s ease-in-out infinite; }
+@keyframes bannerFloat {
+  0%, 100% { transform: rotate(-4deg) translateY(0); }
+  50%       { transform: rotate(-4deg) translateY(-10px); }
+}
+.banner__phone-logo { width: 48px; opacity: 0.85; }
+.banner__discount-badge {
+  position: absolute; top: 0; right: 10px;
+  background: var(--amber); color: #000;
+  font-size: 11px; font-weight: 900; letter-spacing: -0.01em;
+  padding: 8px 12px; border-radius: 10px;
+  text-align: center; line-height: 1.2;
+  box-shadow: 0 8px 24px rgba(245,192,0,0.35);
+  animation: badgePop 3s ease-in-out infinite;
+}
+@keyframes badgePop {
+  0%, 100% { transform: scale(1) rotate(-3deg); }
+  50%       { transform: scale(1.06) rotate(-3deg); }
+}
+.banner__discount-badge span { display: block; font-size: 20px; font-weight: 900; }
+
+/* ════════════════════════════════════════════════════════════ */
+/* ASSISTÊNCIA TÉCNICA                                          */
+/* ════════════════════════════════════════════════════════════ */
+.tech { position: relative; padding: 0 5vw 100px; }
+.tech__inner { max-width: 1280px; margin: 0 auto; }
+.tech__layout { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; }
+.tech__visual { position: relative; display: flex; align-items: center; justify-content: center; }
+.tech__circle-bg {
+  position: absolute; width: 380px; height: 380px; border-radius: 50%;
+  background: radial-gradient(circle, rgba(245,192,0,0.06) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+/* ─── ASSISTÊNCIA TÉCNICA ────────────────────────────────── */
+.tech__services-grid {
+  position: relative; z-index: 1; width: 100%;
+  display: flex; flex-direction: column; gap: 10px;
+}
+.tech-svc {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: 12px; padding: 16px 20px;
+  display: flex; flex-direction: row; align-items: center; gap: 16px;
+  transition: border-color 0.25s, transform 0.2s;
+  cursor: default;
+}
+.tech-svc:hover { border-color: rgba(245,192,0,0.4); }
+.tech-svc__icon {
+  width: 44px; height: 44px; border-radius: 10px; flex-shrink: 0;
+  background: rgba(245,192,0,0.1); border: 1px solid rgba(245,192,0,0.22);
+  display: flex; align-items: center; justify-content: center;
+}
+.tech-svc__icon svg { width: 20px; height: 20px; }
+.tech-svc__text { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.tech-svc__name { font-size: 14px; font-weight: 700; color: var(--white); }
+.tech-svc__note { font-size: 12px; font-weight: 400; color: var(--muted); line-height: 1.4; }
+
+.tech__content .sec__tag { display: inline-block; margin-bottom: 14px; }
+.tech__title {
+  font-size: clamp(1.8rem, 3vw, 2.8rem); font-weight: 900;
+  letter-spacing: -0.03em; color: var(--white);
+  line-height: 1.06; margin-bottom: 20px;
+}
+.tech__title em { font-style: normal; color: var(--amber); }
+.tech__desc {
+  font-size: 14px; font-weight: 400; color: var(--muted);
+  line-height: 1.7; margin-bottom: 32px; max-width: 420px;
+}
+.tech__promise { display: flex; flex-direction: column; gap: 12px; margin-bottom: 36px; }
+.tech__promise-item { display: flex; align-items: center; gap: 12px; font-size: 13px; font-weight: 600; color: var(--white); }
+.tech__promise-dot {
+  width: 20px; height: 20px; border-radius: 50%;
+  background: rgba(245,192,0,0.12); border: 1px solid rgba(245,192,0,0.3);
+  display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+}
+.tech__promise-dot svg { width: 10px; height: 10px; }
+
+/* ════════════════════════════════════════════════════════════ */
+/* DIFERENCIAIS DA EMPRESA                                      */
+/* ════════════════════════════════════════════════════════════ */
+.brand-diffs { position: relative; padding: 0 5vw 100px; }
+.brand-diffs__inner { max-width: 1280px; margin: 0 auto; }
+.bd__featured {
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0;
+  border: 1px solid var(--border); border-radius: var(--radius-lg);
+  overflow: hidden; margin-bottom: 16px;
+}
+.bd__feat-card {
+  background: var(--surface); padding: 52px 48px;
+  display: flex; flex-direction: column; gap: 16px;
+  position: relative; overflow: hidden;
+  border-right: 1px solid var(--border);
+  transition: background var(--transition);
+  box-sizing: border-box; width: 100%; min-width: 0;
+}
+.bd__feat-card:last-child { border-right: none; }
+.bd__feat-card::after {
+  content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
+  background: linear-gradient(90deg, var(--amber), transparent);
+}
+.bd__feat-card:hover { background: var(--card); }
+.bd__feat-num { font-size: 56px; font-weight: 900; letter-spacing: -0.04em; color: var(--amber); line-height: 1; }
+.bd__feat-num sup { font-size: 22px; font-weight: 700; vertical-align: super; }
+.bd__feat-title { font-size: 18px; font-weight: 800; color: var(--white); letter-spacing: -0.02em; }
+.bd__feat-desc { font-size: 13px; color: var(--muted); line-height: 1.65; max-width: 340px; }
+.bd__row {
+  display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0;
+  border: 1px solid var(--border); border-radius: var(--radius-lg); overflow: hidden;
+}
+.bd__small-card {
+  background: var(--surface); padding: 36px 32px;
+  display: flex; flex-direction: column; gap: 12px;
+  position: relative; overflow: hidden;
+  border-right: 1px solid var(--border);
+  transition: background var(--transition);
+  box-sizing: border-box; width: 100%; min-width: 0;
+}
+.bd__small-card:last-child { border-right: none; }
+.bd__small-card::before {
+  content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
+  background: var(--amber); transform: scaleX(0); transform-origin: left;
+  transition: transform 0.3s ease;
+}
+.bd__small-card:hover { background: var(--card); }
+.bd__small-card:hover::before { transform: scaleX(1); }
+.bd__small-icon {
+  width: 44px; height: 44px; border-radius: 12px;
+  background: rgba(245,192,0,0.08); border: 1px solid rgba(245,192,0,0.14);
+  display: flex; align-items: center; justify-content: center;
+}
+.bd__small-icon svg { width: 20px; height: 20px; }
+.bd__small-title { font-size: 14px; font-weight: 700; color: var(--white); letter-spacing: -0.01em; }
+.bd__small-desc  { font-size: 12px; color: var(--muted); line-height: 1.6; }
+
+/* ════════════════════════════════════════════════════════════ */
+/* DEPOIMENTOS                                                  */
+/* ════════════════════════════════════════════════════════════ */
+.testimonials { position: relative; padding: 0 5vw 100px; }
+.testimonials__inner { max-width: 1280px; margin: 0 auto; }
+.testi__grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.testi-card {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius-lg); padding: 32px 28px;
+  display: flex; flex-direction: column; gap: 20px;
+  position: relative; width: 100%; min-width: 0; max-width: 100%;
+  box-sizing: border-box; overflow: hidden;
+  transition: border-color var(--transition), transform 0.22s;
+}
+.testi-card:hover { border-color: rgba(245,192,0,0.22); }
+.testi-card::before {
+  content: '\201C';
+  position: absolute; top: 20px; right: 24px;
+  font-size: 64px; line-height: 1;
+  color: rgba(245,192,0,0.1); font-family: Georgia, serif; pointer-events: none;
+}
+.testi__stars { display: flex; gap: 3px; }
+.testi__star  { color: var(--amber); font-size: 13px; }
+.testi__text  { font-size: 14px; font-weight: 400; color: var(--white); line-height: 1.7; flex: 1; }
+.testi__author {
+  display: flex; align-items: center; gap: 8px;
+  padding-top: 16px; border-top: 1px solid var(--border);
+  min-width: 0; overflow: hidden;
+}
+.testi__avatar {
+  width: 40px; height: 40px; border-radius: 50%;
+  background: var(--card); border: 1px solid var(--border);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 14px; font-weight: 800; color: var(--amber); flex-shrink: 0;
+}
+.testi__name     { font-size: 13px; font-weight: 700; color: var(--white); min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.testi__location { font-size: 11px; font-weight: 500; color: var(--muted); letter-spacing: 0.04em; margin-top: 2px; }
+.testi__source {
+  margin-left: auto; font-size: 10px; font-weight: 700;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--muted); border: 1px solid var(--border);
+  border-radius: 20px; padding: 3px 8px; flex-shrink: 0; white-space: nowrap;
+}
+
+/* ════════════════════════════════════════════════════════════ */
+/* INSTAGRAM                                                    */
+/* ════════════════════════════════════════════════════════════ */
+.insta { position: relative; padding: 0 5vw 100px; }
+.insta__inner { max-width: 1280px; margin: 0 auto; }
+.insta__header-row {
+  display: flex; align-items: flex-end; justify-content: space-between;
+  margin-bottom: 40px; gap: 1rem; flex-wrap: wrap;
+}
+.insta__handle {
+  display: inline-flex; align-items: center; gap: 8px;
+  font-size: 13px; font-weight: 700; color: var(--amber);
+  text-decoration: none; border: 1px solid rgba(245,192,0,0.2);
+  border-radius: 20px; padding: 6px 14px;
+  transition: background 0.2s, border-color 0.2s;
+}
+.insta__handle:hover { background: rgba(245,192,0,0.06); border-color: rgba(245,192,0,0.4); }
+.insta__grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 8px; }
+.insta-post {
+  aspect-ratio: 1 / 1; border-radius: 10px;
+  background: var(--surface); border: 1px solid var(--border);
+  overflow: hidden; position: relative;
+  cursor: pointer; display: flex; align-items: center; justify-content: center;
+  min-width: 0;
+}
+.insta-post__inner {
+  width: 100%; height: 100%;
+  display: flex; align-items: center; justify-content: center;
+  transition: transform 0.35s ease;
+}
+.insta-post:hover .insta-post__inner { transform: scale(1.07); }
+.insta-post__overlay {
+  position: absolute; inset: 0;
+  background: rgba(0,0,0,0.55);
+  display: flex; align-items: center; justify-content: center; gap: 10px;
+  opacity: 0; transition: opacity 0.25s; border-radius: 10px;
+}
+.insta-post:hover .insta-post__overlay { opacity: 1; }
+.insta-post__overlay span {
+  font-size: 12px; font-weight: 700; color: #fff;
+  display: flex; align-items: center; gap: 4px;
+}
+.insta-post--1 { background: linear-gradient(145deg, #1a1a1a, #111); }
+.insta-post--2 { background: linear-gradient(145deg, #161410, #0e0c0a); }
+.insta-post--3 { background: linear-gradient(145deg, #101318, #0a0d10); }
+.insta-post--4 { background: linear-gradient(145deg, #130f0a, #100d08); }
+.insta-post--5 { background: linear-gradient(145deg, #111a14, #0a100c); }
+.insta-post--6 { background: linear-gradient(145deg, #18121a, #100c12); }
+
+/* ════════════════════════════════════════════════════════════ */
+/* CTA FINAL                                                    */
+/* ════════════════════════════════════════════════════════════ */
+.cta-final {
+  position: relative;
+  padding: 0 5vw 100px;
+  overflow: hidden;
+}
+.cta-final__inner { max-width: 1280px; margin: 0 auto; }
+.cta-final__card {
+  position: relative;
+  border-radius: var(--radius-xl);
+  border: 1px solid rgba(245,192,0,0.2);
+  background: var(--surface);
+  overflow: hidden;
+  padding: 80px 64px;
+  text-align: center;
+  display: flex; flex-direction: column; align-items: center; gap: 2rem;
+}
+.cta-final__glow-left {
+  position: absolute; width: 500px; height: 500px; border-radius: 50%;
+  background: radial-gradient(circle, rgba(245,192,0,0.08) 0%, transparent 65%);
+  top: 50%; left: -10%; transform: translateY(-50%);
+  pointer-events: none;
+}
+.cta-final__glow-right {
+  position: absolute; width: 500px; height: 500px; border-radius: 50%;
+  background: radial-gradient(circle, rgba(245,192,0,0.06) 0%, transparent 65%);
+  top: 50%; right: -10%; transform: translateY(-50%);
+  pointer-events: none;
+}
+.cta-final__grid-bg {
+  position: absolute; inset: 0;
+  background-image:
+    linear-gradient(rgba(245,192,0,0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(245,192,0,0.025) 1px, transparent 1px);
+  background-size: 50px 50px; pointer-events: none;
+}
+.cta-final__tag {
+  font-size: 10px; font-weight: 700;
+  letter-spacing: 0.22em; text-transform: uppercase;
+  color: var(--amber);
+}
+.cta-final__title {
+  font-size: clamp(2.2rem, 4vw, 3.8rem);
+  font-weight: 900; letter-spacing: -0.03em;
+  color: var(--white); line-height: 1.05;
+  max-width: 700px;
+}
+.cta-final__title em { font-style: normal; color: var(--amber); }
+.cta-final__desc {
+  font-size: 16px; font-weight: 400; color: var(--muted);
+  line-height: 1.65; max-width: 520px;
+}
+.cta-final__actions {
+  display: flex; align-items: center; gap: 16px;
+  flex-wrap: wrap; justify-content: center;
+}
+.cta-final__actions .btn-primary { padding: 16px 36px; font-size: 14px; }
+.cta-final__actions .btn-secondary { padding: 15px 32px; font-size: 14px; }
+.cta-final__info {
+  display: flex; align-items: center; gap: 24px;
+  flex-wrap: wrap; justify-content: center;
+}
+.cta-final__info-item {
+  display: flex; align-items: center; gap: 8px;
+  font-size: 12px; font-weight: 500; color: var(--muted);
+}
+.cta-final__info-item svg { flex-shrink: 0; }
+
+/* ════════════════════════════════════════════════════════════ */
+/* RODAPÉ                                                       */
+/* ════════════════════════════════════════════════════════════ */
+.footer {
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+}
+.footer__top {
+  max-width: 1280px; margin: 0 auto;
+  padding: 64px 5vw 48px;
+  display: grid; grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 3rem;
+}
+.footer__brand-logo {
+  display: flex; align-items: center; gap: 10px;
+  text-decoration: none; margin-bottom: 20px;
+}
+.footer__brand-logo svg { width: 30px; height: 30px; flex-shrink: 0; }
+.footer__brand-name {
+  font-size: 14px; font-weight: 800;
+  letter-spacing: 0.1em; text-transform: uppercase; color: var(--white);
+}
+.footer__brand-sub {
+  font-size: 8px; font-weight: 500;
+  letter-spacing: 0.2em; text-transform: uppercase; color: var(--amber); margin-top: 2px;
+}
+.footer__tagline {
+  font-size: 13px; color: var(--muted); line-height: 1.65;
+  max-width: 280px; margin-bottom: 28px;
+}
+.footer__socials {
+  display: flex; gap: 10px;
+}
+.footer__social {
+  width: 36px; height: 36px; border-radius: 8px;
+  background: var(--card); border: 1px solid var(--border);
+  display: flex; align-items: center; justify-content: center;
+  text-decoration: none; color: var(--muted);
+  transition: border-color var(--transition), color var(--transition), background var(--transition);
+}
+.footer__social:hover { border-color: var(--amber); color: var(--amber); background: rgba(245,192,0,0.06); }
+.footer__social svg { width: 16px; height: 16px; }
+
+.footer__col-title {
+  font-size: 11px; font-weight: 700; letter-spacing: 0.16em;
+  text-transform: uppercase; color: var(--white); margin-bottom: 20px;
+}
+.footer__links { list-style: none; display: flex; flex-direction: column; gap: 12px; }
+.footer__links a {
+  font-size: 13px; font-weight: 400; color: var(--muted);
+  text-decoration: none; transition: color var(--transition);
+}
+.footer__links a:hover { color: var(--amber); }
+
+.footer__contact-list { display: flex; flex-direction: column; gap: 14px; }
+.footer__contact-item {
+  display: flex; align-items: flex-start; gap: 10px;
+  font-size: 13px; color: var(--muted); line-height: 1.5;
+}
+.footer__contact-item svg { flex-shrink: 0; margin-top: 1px; }
+.footer__contact-item a { color: var(--amber); text-decoration: none; transition: color 0.2s; }
+.footer__contact-item a:hover { color: #ffd200; }
+
+.footer__bottom {
+  border-top: 1px solid var(--border);
+  max-width: 1280px; margin: 0 auto;
+  padding: 20px 5vw;
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 1rem; flex-wrap: wrap;
+}
+.footer__copy {
+  font-size: 12px; color: var(--muted); letter-spacing: 0.02em;
+}
+.footer__copy span { color: var(--amber); }
+.footer__legal { display: flex; gap: 20px; flex-wrap: wrap; }
+.footer__legal a {
+  font-size: 11px; color: var(--muted); text-decoration: none;
+  letter-spacing: 0.04em; transition: color 0.2s;
+}
+.footer__legal a:hover { color: var(--amber); }
+
+/* ════════════════════════════════════════════════════════════ */
+/* WHATSAPP FLUTUANTE                                           */
+/* ════════════════════════════════════════════════════════════ */
+.float-wa {
+  position: fixed;
+  bottom: 28px; right: 28px;
+  z-index: 200;
+  display: flex; flex-direction: column; align-items: flex-end; gap: 10px;
+}
+.float-wa__tooltip {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 8px; padding: 8px 14px;
+  font-size: 12px; font-weight: 600; color: var(--white);
+  white-space: nowrap;
+  opacity: 0; transform: translateX(10px);
+  transition: opacity 0.25s, transform 0.25s;
+  pointer-events: none;
+}
+.float-wa:hover .float-wa__tooltip { opacity: 1; transform: translateX(0); }
+.float-wa__btn {
+  width: 56px; height: 56px; border-radius: 50%;
+  background: #25D366;
+  display: flex; align-items: center; justify-content: center;
+  text-decoration: none; flex-shrink: 0;
+  box-shadow: 0 4px 20px rgba(37,211,102,0.4);
+  transition: transform 0.2s, box-shadow 0.2s;
+  animation: waPulse 3s ease-in-out infinite;
+}
+.float-wa__btn:hover { transform: scale(1.1); box-shadow: 0 8px 30px rgba(37,211,102,0.5); }
+.float-wa__btn svg { width: 26px; height: 26px; }
+@keyframes waPulse {
+  0%, 100% { box-shadow: 0 4px 20px rgba(37,211,102,0.4); }
+  50%       { box-shadow: 0 4px 30px rgba(37,211,102,0.6), 0 0 0 8px rgba(37,211,102,0.08); }
+}
+
+/* ════════════════════════════════════════════════════════════ */
+/* RESPONSIVE                                                   */
+/* ════════════════════════════════════════════════════════════ */
+
+/* ════════════════════════════════════════════════════════════ */
+/* SEARCH + FILTER BAR                                          */
+/* ════════════════════════════════════════════════════════════ */
+.products-controls {
+  max-width: 1280px;
+  margin: 0 auto 40px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.search-wrap {
+  position: relative;
+  flex: 1;
+  min-width: 220px;
+}
+
+.search-wrap__icon {
+  position: absolute;
+  left: 14px; top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: var(--muted);
+}
+
+.search-input {
+  width: 100%;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--white);
+  font-family: var(--font);
+  font-size: 13px;
+  font-weight: 500;
+  padding: 12px 42px 12px 42px;
+  outline: none;
+  transition: border-color var(--transition), box-shadow var(--transition);
+}
+
+.search-input::placeholder { color: var(--muted); }
+
+.search-input:focus {
+  border-color: rgba(245,192,0,0.4);
+  box-shadow: 0 0 0 3px rgba(245,192,0,0.07);
+}
+
+.search-clear {
+  position: absolute;
+  right: 12px; top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: var(--muted);
+  cursor: pointer;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: color 0.2s, opacity 0.2s;
+}
+
+.search-clear:hover { color: var(--white); }
+
+.filter-pills {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+}
+
+.filter-pill {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 8px 18px;
+  cursor: pointer;
+  transition: color var(--transition), border-color var(--transition), background var(--transition);
+  white-space: nowrap;
+}
+
+.filter-pill:hover {
+  color: var(--white);
+  border-color: rgba(245,192,0,0.3);
+}
+
+.filter-pill.active {
+  color: #000;
+  background: var(--amber);
+  border-color: var(--amber);
+}
+
+.products-count {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--muted);
+  flex-shrink: 0;
+  white-space: nowrap;
+  align-self: center;
+}
+
+.products__empty {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 80px 20px;
+  color: var(--muted);
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* ════════════════════════════════════════════════════════════ */
+/* MODAL DE PRODUTO                                             */
+/* ════════════════════════════════════════════════════════════ */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 500;
+  background: rgba(0,0,0,0.75);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.modal-overlay.open {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.modal-overlay.open .modal-box {
+  transform: translateY(0) scale(1);
+  opacity: 1;
+}
+
+.modal-box {
+  position: relative;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  width: 100%;
+  max-width: 820px;
+  max-height: 90vh;
+  overflow-y: auto;
+  transform: translateY(24px) scale(0.98);
+  opacity: 0;
+  transition: transform 0.35s cubic-bezier(0.4,0,0.2,1), opacity 0.3s ease;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}
+
+.modal-box::-webkit-scrollbar { width: 4px; }
+.modal-box::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+
+.modal-close {
+  position: absolute;
+  top: 16px; right: 16px;
+  z-index: 10;
+  width: 36px; height: 36px;
+  border-radius: 50%;
+  background: var(--card);
+  border: 1px solid var(--border);
+  color: var(--muted);
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer;
+  transition: color var(--transition), border-color var(--transition), background var(--transition);
+}
+
+.modal-close:hover {
+  color: var(--white);
+  border-color: rgba(245,192,0,0.3);
+  background: var(--border);
+}
+
+.modal-inner {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  min-height: 440px;
+}
+
+.modal-visual {
+  background: var(--card);
+  border-radius: var(--radius-xl) 0 0 var(--radius-xl);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 32px;
+  position: relative;
+  overflow: hidden;
+}
+
+.modal-visual::before {
+  content: '';
+  position: absolute;
+  width: 300px; height: 300px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(245,192,0,0.08) 0%, transparent 65%);
+  pointer-events: none;
+}
+
+.modal-svg-wrap {
+  width: 160px;
+  height: auto;
+  animation: floatY 4s ease-in-out infinite;
+}
+
+.modal-svg-wrap svg {
+  width: 100%;
+  height: auto;
+}
+
+.modal-content {
+  padding: 40px 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.modal-brand {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--amber);
+}
+
+.modal-name {
+  font-size: clamp(1.2rem, 2.5vw, 1.7rem);
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  color: var(--white);
+  line-height: 1.15;
+}
+
+.modal-price-row {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.modal-price {
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: var(--white);
+  letter-spacing: -0.03em;
+}
+
+.modal-oldprice {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--muted);
+  text-decoration: line-through;
+}
+
+.modal-desc {
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.7;
+  border-top: 1px solid var(--border);
+  padding-top: 14px;
+}
+
+.modal-specs {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.modal-spec-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--white);
+}
+
+.modal-spec-item svg { flex-shrink: 0; }
+
+.modal-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 6px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+}
+
+.modal-wa-btn {
+  flex: 1;
+  justify-content: center;
+  min-width: 180px;
+}
+
+.modal-share-btn {
+  padding: 13px 18px;
+  flex-shrink: 0;
+}
+
+/* ─── PRODUCT PHOTO IN CARDS ─────────────────────────────── */
+.prod-card__img {
+  aspect-ratio: 1 / 1;
+  background: #111;
+  display: flex; align-items: center; justify-content: center;
+  position: relative; overflow: hidden;
+}
+.prod-card__img-inner {
+  width: 100%; height: 100%;
+  display: flex; align-items: center; justify-content: center;
+  padding: 0;
+}
+.prod-card__img-inner img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  padding: 16px;
+  transition: transform 0.35s cubic-bezier(0.4,0,0.2,1);
+  display: block;
+}
+.prod-card:hover .prod-card__img-inner img { transform: scale(1.07); }
+
+/* ════════════════════════════════════════════════════════════ */
+/* RESPONSIVO                                                   */
+/* ════════════════════════════════════════════════════════════ */
+
+/* ─── Tablet largo ─────────────────────────────────── 1200px */
+
+/* ─── Tablet ────────────────────────────────────────── 1024px */
+
+/* ─── Mobile largo ────────────────────────────────────── 768px */
+
+/* ─── Mobile pequeno ─────────────────────────────────── 480px */
+
+/* ─── Mobile muito pequeno ───────────────────────────── 360px */
+
+/* ─── REDUCED MOTION ────────────────────────────────────────── */
+
+  
+/* ════════════════════════════════════════════════════════════
+   RESPONSIVO
+   ════════════════════════════════════════════════════════════ */
+
+@media (max-width: 1200px) {
+  .footer__top { grid-template-columns: 1fr 1fr; gap: 2rem; }
+}
+
+@media (max-width: 1024px) {
+  .cats__grid     { grid-template-columns: repeat(2, 1fr); }
+  .products__grid { grid-template-columns: repeat(2, 1fr); }
+  .diffs__grid    { grid-template-columns: repeat(2, 1fr); }
+  .insta__grid    { grid-template-columns: repeat(4, 1fr); }
+  .insta__grid .insta-post:nth-child(n+5) { display: none; }
+}
+
+/* ── MOBILE: 768px e menor ─────────────────────────────────── */
+@media (max-width: 768px) {
+
+  /* Previne overflow global */
+  html, body { overflow-x: hidden; max-width: 100%; }
+
+  /* Header */
+  .nav, .header__actions .btn-whatsapp { display: none; }
+  .hamburger  { display: flex; }
+  .mobile-nav { display: block; }
+
+  /* Seções: padding seguro */
+  .sec, .diffs, .banner, .tech, .brand-diffs,
+  .testimonials, .insta, .cta-final { padding-left: 16px; padding-right: 16px; }
+
+  .sec__amber-line, .diffs__amber-line { margin-bottom: 40px; }
+
+  /* Hero */
+  .hero { padding: 90px 16px 60px; min-height: auto; }
+  .hero__inner { grid-template-columns: 1fr; text-align: center; gap: 2rem; }
+  .hero__visual { display: none; }
+  .hero__content, .hero__desc { max-width: 100%; }
+  .hero__desc   { margin-inline: auto; }
+  .hero__ctas   { justify-content: center; flex-wrap: wrap; }
+  .hero__stats  { justify-content: center; gap: 1.5rem; flex-wrap: wrap; }
+  .hero__title  { font-size: clamp(2rem, 8vw, 2.8rem); }
+
+  /* ── DIFERENCIAIS ── */
+  .diffs__grid {
+    grid-template-columns: 1fr !important;
+    background: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+    gap: 8px !important;
+  }
+  .diff-card {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    border: 1px solid var(--border) !important;
+    border-right: 1px solid var(--border) !important;
+    border-radius: 12px !important;
+    padding: 20px 16px !important;
+    box-sizing: border-box !important;
+  }
+  .diff-card:last-child { border-right: 1px solid var(--border) !important; }
+
+  /* ── CATEGORIAS ── */
+  .cats__grid { grid-template-columns: repeat(2, 1fr) !important; gap: 8px; }
+  .cat-card   { padding: 18px 14px; }
+  .cat-card__count { display: none; }
+
+  /* ── PRODUTOS ── */
+  .products__grid    { grid-template-columns: repeat(2, 1fr) !important; gap: 8px; }
+  .products-controls { flex-direction: column; gap: 10px; }
+  .filter-pills      { gap: 6px; }
+  .filter-pill       { font-size: 11px; padding: 7px 12px; }
+
+  /* ── BANNER ── */
+  .banner__card    { flex-direction: column; }
+  .banner__content { padding: 28px 20px; max-width: 100%; }
+  .banner__visual  { display: none; }
+  .banner__title   { font-size: clamp(1.6rem, 6vw, 2.2rem); }
+  .banner__actions { flex-direction: column; }
+  .banner__actions .btn-primary,
+  .banner__actions .btn-secondary { width: 100%; justify-content: center; }
+
+  /* ── ASSISTÊNCIA TÉCNICA ── */
+  .tech__layout { grid-template-columns: 1fr !important; gap: 0; }
+  .tech__visual { width: 100%; margin-bottom: 32px; }
+  .tech__circle-bg { display: none; }
+  .tech__services-grid {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 8px !important;
+    width: 100% !important;
+  }
+  .tech-svc {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    padding: 14px 16px !important;
+    transform: none !important;
+  }
+  .tech-svc:hover { transform: none !important; }
+  .tech-svc__text { min-width: 0; flex: 1; }
+  .tech-svc__name { font-size: 14px; white-space: normal; word-break: break-word; }
+  .tech-svc__note { font-size: 12px; white-space: normal; word-break: break-word; }
+  .tech__title { font-size: clamp(1.6rem, 6vw, 2.2rem); }
+  .tech__desc  { max-width: 100%; }
+
+  /* ── NOSSA HISTÓRIA / DIFERENCIAIS DA EMPRESA ── */
+  .brand-diffs { padding-left: 16px; padding-right: 16px; }
+  .bd__featured {
+    grid-template-columns: 1fr !important;
+    background: none !important;
+    border: 1px solid var(--border) !important;
+    border-radius: 12px !important;
+    overflow: hidden !important;
+    gap: 0 !important;
+    margin-bottom: 12px !important;
+  }
+  .bd__feat-card {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    padding: 28px 20px !important;
+    border-right: none !important;
+    border-bottom: 1px solid var(--border) !important;
+  }
+  .bd__feat-card:last-child { border-bottom: none !important; }
+  .bd__feat-num { font-size: 40px; }
+
+  .bd__row {
+    grid-template-columns: 1fr !important;
+    background: none !important;
+    border: 1px solid var(--border) !important;
+    border-radius: 12px !important;
+    overflow: hidden !important;
+    gap: 0 !important;
+  }
+  .bd__small-card {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    padding: 22px 20px !important;
+    border-right: none !important;
+    border-bottom: 1px solid var(--border) !important;
+  }
+  .bd__small-card:last-child { border-bottom: none !important; }
+
+  /* ── DEPOIMENTOS ── */
+  .testimonials__inner { max-width: 100%; }
+  .testi__grid {
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 12px !important;
+  }
+  .testi-card {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    padding: 24px 18px !important;
+    transform: none !important;
+  }
+  .testi-card:hover { transform: none !important; }
+
+  /* ── INSTAGRAM ── */
+  .insta__grid { grid-template-columns: repeat(3, 1fr) !important; gap: 6px; }
+  .insta__grid .insta-post:nth-child(n+4) { display: none; }
+  .insta__header-row { flex-direction: column; align-items: flex-start; gap: 10px; }
+
+  /* ── CTA FINAL ── */
+  .cta-final__card { padding: 40px 20px; }
+  .cta-final__title { font-size: clamp(1.6rem, 6vw, 2.2rem); }
+  .cta-final__actions { flex-direction: column; align-items: center; }
+  .cta-final__actions .btn-primary,
+  .cta-final__actions .btn-secondary { width: 100%; justify-content: center; }
+  .cta-final__info { flex-direction: column; align-items: center; gap: 8px; }
+
+  /* ── RODAPÉ ── */
+  .footer__top    { grid-template-columns: 1fr !important; gap: 2rem; padding: 36px 16px 28px; }
+  .footer__bottom { flex-direction: column; text-align: center; padding: 16px; }
+  .footer__legal  { justify-content: center; }
+
+  /* ── MODAL ── */
+  .modal-inner   { grid-template-columns: 1fr !important; }
+  .modal-visual  { border-radius: 20px 20px 0 0; padding: 24px; min-height: 180px; }
+  .modal-content { padding: 20px 18px 24px; }
+  .modal-actions { flex-direction: column; }
+  .modal-wa-btn  { width: 100%; justify-content: center; }
+
+  /* ── FLOAT ── */
+  .float-wa { bottom: 16px; right: 16px; }
+  #backToTop { bottom: 74px !important; right: 16px !important; }
+}
+
+/* ── 480px ─────────────────────────────────────────────────── */
+@media (max-width: 480px) {
+  .hero__title  { font-size: 1.9rem; }
+  .cats__grid   { grid-template-columns: repeat(2, 1fr) !important; gap: 6px; }
+  .products__grid { grid-template-columns: repeat(2, 1fr) !important; gap: 6px; }
+  .prod-card__name  { font-size: 12px; }
+  .prod-card__price { font-size: 15px; }
+  .insta__grid  { grid-template-columns: repeat(3, 1fr) !important; }
+  .banner__chips { gap: 4px; }
+  .banner__chip  { font-size: 10px; padding: 3px 8px; }
+}
+
+/* ── 360px ─────────────────────────────────────────────────── */
+@media (max-width: 360px) {
+  .products__grid { grid-template-columns: 1fr !important; }
+  .cats__grid     { grid-template-columns: 1fr 1fr !important; }
+  .hero__title    { font-size: 1.7rem; }
+  .sec__title, .diffs__title { font-size: 1.4rem; }
+}
+
+</style>
+<!-- MOBILE FIX -->
+<style>
+@media screen and (max-width: 768px) {
+
+  /* OVERFLOW */
+  html, body { overflow-x: hidden !important; }
+
+  /* DEPOIMENTOS - forçar 1 coluna */
+  .testi__grid {
+    display: block !important;
+    width: 100% !important;
+  }
+  .testi__grid .testi-card {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    margin-bottom: 12px !important;
+    transform: none !important;
+  }
+
+  /* DIFERENCIAIS (seção 1) */
+  .diffs__grid {
+    display: block !important;
+    width: 100% !important;
+    background: transparent !important;
+    border: none !important;
+  }
+  .diffs__grid .diff-card {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    border: 1px solid #262626 !important;
+    border-radius: 12px !important;
+    margin-bottom: 8px !important;
+  }
+
+  /* NOSSA HISTÓRIA - bd__featured */
+  .bd__featured {
+    display: block !important;
+    width: 100% !important;
+    background: transparent !important;
+    border: 1px solid #262626 !important;
+    border-radius: 12px !important;
+    overflow: hidden !important;
+  }
+  .bd__feat-card {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    border-right: none !important;
+    border-bottom: 1px solid #262626 !important;
+    padding: 28px 20px !important;
+  }
+  .bd__feat-card:last-child {
+    border-bottom: none !important;
+  }
+
+  /* NOSSA HISTÓRIA - bd__row */
+  .bd__row {
+    display: block !important;
+    width: 100% !important;
+    background: transparent !important;
+    border: 1px solid #262626 !important;
+    border-radius: 12px !important;
+    overflow: hidden !important;
+  }
+  .bd__small-card {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    border-right: none !important;
+    border-bottom: 1px solid #262626 !important;
+    padding: 22px 20px !important;
+  }
+  .bd__small-card:last-child {
+    border-bottom: none !important;
+  }
+
+  /* ASSISTÊNCIA TÉCNICA */
+  .tech__layout {
+    display: block !important;
+    width: 100% !important;
+  }
+  .tech__services-grid {
+    display: block !important;
+    width: 100% !important;
+    margin-bottom: 32px !important;
+  }
+  .tech-svc {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    margin-bottom: 8px !important;
+    transform: none !important;
+  }
+  .tech-svc__text {
+    flex: 1 !important;
+    min-width: 0 !important;
+  }
+  .tech-svc__name,
+  .tech-svc__note {
+    white-space: normal !important;
+    word-break: break-word !important;
+  }
+  .tech__content {
+    width: 100% !important;
+  }
+
+  /* CATEGORIAS */
+  .cats__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    width: 100% !important;
+  }
+
+  /* PRODUTOS */
+  .products__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    width: 100% !important;
+  }
+
+  /* Remover transforms que deslocam */
+  .cat-card:hover,
+  .prod-card:hover,
+  .testi-card:hover,
+  .tech-svc:hover,
+  .diff-card:hover {
+    transform: none !important;
+  }
+}
+</style>
+<!-- END MOBILE FIX -->
+
+<!-- ═══ FIX MOBILE: SEÇÕES GRUDADAS ═══════════════════════════ -->
+<style>
+@media (max-width: 768px) {
+
+  /* ── DEPOIMENTOS: força 1 coluna com scroll, sem grid quebrado ── */
+  .testi__grid {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 12px !important;
+    width: 100% !important;
+  }
+  .testi-card {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    flex-shrink: 0 !important;
+    padding: 22px 16px !important;
+    transform: none !important;
+  }
+  .testi__author {
+    flex-wrap: wrap !important;
+    gap: 6px !important;
+  }
+  .testi__source {
+    margin-left: 0 !important;
+  }
+
+  /* ── INSTAGRAM: 2 colunas no mobile (legível) ── */
+  .insta__grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 6px !important;
+    width: 100% !important;
+  }
+  .insta__grid .insta-post:nth-child(n+5) {
+    display: none !important;
+  }
+  .insta-post {
+    min-width: 0 !important;
+    width: 100% !important;
+  }
+  .insta__header-row {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 12px !important;
+  }
+
+  /* ── SEÇÕES: padding lateral seguro ── */
+  .testimonials,
+  .insta {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+    overflow-x: hidden !important;
+  }
+  .testimonials__inner,
+  .insta__inner {
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
+}
+
+@media (max-width: 480px) {
+  /* 1 coluna no insta para telas muito pequenas */
+  .insta__grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .testi__text {
+    font-size: 13px !important;
+  }
+}
+</style>
+<!-- END FIX MOBILE SEÇÕES GRUDADAS -->
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════
+     HEADER
+════════════════════════════════════════════════ -->
+<header class="header" id="header">
+  <div class="header__inner">
+
+    <a href="#hero" class="logo" aria-label="Lojas Carbono — Início">
+      <svg class="logo__icon" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <!-- Chevron superior -->
+        <path d="M80,12 L150,63 L150,82 L80,33 L10,82 L10,63 Z" fill="#F5C000"/>
+        <!-- Losango central com buraco -->
+        <path d="M80,55 L116,80 L80,105 L44,80 Z" fill="#F5C000"/>
+        <path d="M80,68 L100,80 L80,92 L60,80 Z" fill="#0D0D0D"/>
+        <!-- Chevron inferior -->
+        <path d="M80,148 L10,97 L10,78 L80,127 L150,78 L150,97 Z" fill="#F5C000"/>
+      </svg>
+      <div class="logo__text">
+        <span class="logo__name">Lojas Carbono</span>
+        <span class="logo__sub">Pindaí · BA</span>
+      </div>
+    </a>
+
+    <nav aria-label="Menu principal">
+      <ul class="nav">
+        <li><a href="#hero">Início</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#magazine" style="color:#F5C000;">Magazine</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+
+    <div class="header__actions">
+      <a href="https://wa.me/557781413984" class="btn-whatsapp" target="_blank" rel="noopener noreferrer" aria-label="Falar no WhatsApp">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        WhatsApp
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+  </div>
+</header>
+
+<!-- Mobile nav -->
+<nav class="mobile-nav" id="mobileNav" aria-label="Menu mobile">
+  <ul>
+    <li><a href="#hero">Início</a></li>
+    <li><a href="#produtos">Produtos</a></li>
+    <li><a href="#servicos">Serviços</a></li>
+    <li><a href="#magazine" style="color:#F5C000;">Magazine</a></li>
+    <li><a href="#sobre">Sobre</a></li>
+    <li><a href="#contato">Contato</a></li>
+  </ul>
+  <a href="https://wa.me/557781413984" class="btn-whatsapp" target="_blank" rel="noopener noreferrer">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    Chamar no WhatsApp
+  </a>
+</nav>
+
+<main>
+
+<!-- ═══════════════════════════════════════════════
+     HERO
+════════════════════════════════════════════════ -->
+<section class="hero" id="hero">
+  <div class="hero__bg" aria-hidden="true">
+    <div class="hero__grid"></div>
+    <div class="hero__glow"></div>
+  </div>
+  <div class="hero__inner">
+    <div class="hero__content reveal">
+      <div class="hero__eyebrow">
+        <span class="hero__eyebrow-dot"></span>
+        Pindaí · Bahia · Desde 2020
+      </div>
+      <h1 class="hero__title">Onde seu<br/>dinheiro<br/><em>vale mais.</em></h1>
+      <p class="hero__desc">Smartphones, acessórios e assistência técnica de alto nível. Produtos originais, atendimento direto e preço justo — tudo no coração do sertão.</p>
+      <div class="hero__ctas">
+        <a href="#produtos" class="btn-primary">
+          Ver produtos
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="#servicos" class="btn-secondary">Assistência técnica</a>
+      </div>
+      <div class="hero__stats">
+        <div><div class="hero__stat-value">+<span>5K</span></div><div class="hero__stat-label">Clientes</div></div>
+        <div><div class="hero__stat-value"><span>100</span>%</div><div class="hero__stat-label">Original</div></div>
+        <div><div class="hero__stat-value"><span>5</span>★</div><div class="hero__stat-label">Avaliação</div></div>
+      </div>
+    </div>
+    <div class="hero__visual reveal">
+      <div class="orbit-ring" aria-hidden="true"></div>
+      <div class="orbit-ring-2" aria-hidden="true"></div>
+      <div class="hero__device-wrap">
+        <svg class="phone-frame" viewBox="0 0 280 560" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect x="1" y="1" width="278" height="558" rx="44" fill="#111111" stroke="#2C2C2E" stroke-width="1.5"/>
+          <rect x="8" y="8" width="264" height="544" rx="38" fill="#0A0A0A" stroke="#1E1E1E" stroke-width="1"/>
+          <rect x="100" y="18" width="80" height="26" rx="13" fill="#1A1A1A"/>
+          <rect x="275" y="120" width="4" height="60" rx="2" fill="#2A2A2A"/>
+          <rect x="1" y="110" width="4" height="40" rx="2" fill="#2A2A2A"/>
+          <rect x="1" y="160" width="4" height="40" rx="2" fill="#2A2A2A"/>
+        </svg>
+        <div class="phone-screen">
+          <svg class="phone-screen__logo" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M80,12 L150,63 L150,82 L80,33 L10,82 L10,63 Z" fill="#F5C000"/>
+            <path d="M80,55 L116,80 L80,105 L44,80 Z" fill="#F5C000"/>
+            <path d="M80,68 L100,80 L80,92 L60,80 Z" fill="#0A0A0A"/>
+            <path d="M80,148 L10,97 L10,78 L80,127 L150,78 L150,97 Z" fill="#F5C000"/>
+          </svg>
+          <div class="phone-screen__label">Lojas Carbono</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     BARRA DE DIFERENCIAIS
+════════════════════════════════════════════════ -->
+<section class="diffs" id="diferenciais" aria-labelledby="diffs-title">
+  <div class="diffs__amber-line" aria-hidden="true"></div>
+  <div class="diffs__inner">
+    <div class="diffs__header reveal">
+      <div class="diffs__tag">Por que as Lojas Carbono?</div>
+      <h2 class="diffs__title" id="diffs-title">Mais do que uma loja.<br/>Uma experiência.</h2>
+    </div>
+    <div class="diffs__grid reveal">
+      <div class="diff-card">
+        <div class="diff-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="#F5C000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></div>
+        <div class="diff-card__title">Produtos 100% Originais</div>
+        <div class="diff-card__desc">Garantia de fábrica em tudo. Nenhum produto paralelo ou recondicionado sem aviso.</div>
+      </div>
+      <div class="diff-card">
+        <div class="diff-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="#F5C000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></div>
+        <div class="diff-card__title">Assistência Técnica</div>
+        <div class="diff-card__desc">Tela, bateria, conector e muito mais. Diagnóstico gratuito e orçamento sem compromisso.</div>
+      </div>
+      <div class="diff-card">
+        <div class="diff-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="#F5C000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div>
+        <div class="diff-card__title">Atendimento Rápido</div>
+        <div class="diff-card__desc">Respostas no WhatsApp em minutos. Atendimento presencial sem fila de espera.</div>
+      </div>
+      <div class="diff-card">
+        <div class="diff-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="#F5C000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+        <div class="diff-card__title">Atendimento Humano</div>
+        <div class="diff-card__desc">Você fala com quem entende de tecnologia. Não com bot, não com script, com gente de verdade.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     CATEGORIAS
+════════════════════════════════════════════════ -->
+<section class="sec" id="categorias" aria-labelledby="cats-title">
+  <div class="sec__amber-line" aria-hidden="true"></div>
+  <div class="sec__inner">
+    <div class="sec__header reveal">
+      <div class="sec__tag">Navegue por categoria</div>
+      <h2 class="sec__title" id="cats-title">O que você procura hoje?</h2>
+    </div>
+    <div class="cats__grid reveal">
+      <a href="#produtos" class="cat-card">
+        <div class="cat-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="#F5C000" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18" stroke-width="2.5"/></svg></div>
+        <div class="cat-card__name">Smartphones</div>
+        <div class="cat-card__count">Samsung, iPhone, Motorola e mais</div>
+        <div class="cat-card__arrow"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+      </a>
+      <a href="#produtos" class="cat-card">
+        <div class="cat-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="#F5C000" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg></div>
+        <div class="cat-card__name">Acessórios</div>
+        <div class="cat-card__count">Fones, capas, carregadores e cabos</div>
+        <div class="cat-card__arrow"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+      </a>
+      <a href="#servicos" class="cat-card">
+        <div class="cat-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="#F5C000" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></div>
+        <div class="cat-card__name">Assistência Técnica</div>
+        <div class="cat-card__count">Tela, bateria e diagnóstico grátis</div>
+        <div class="cat-card__arrow"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+      </a>
+      <a href="#magazine" class="cat-card">
+        <div class="cat-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="#F5C000" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
+        <div class="cat-card__name">Utilidades do Lar</div>
+        <div class="cat-card__count">Garrafas, copos, bolsas e muito mais</div>
+        <div class="cat-card__arrow"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     PRODUTOS MAIS VENDIDOS
+════════════════════════════════════════════════ -->
+<section class="sec" id="produtos" aria-labelledby="products-title">
+  <div class="sec__amber-line" aria-hidden="true"></div>
+  <div class="sec__inner">
+    <div class="sec__header reveal">
+      <div class="sec__tag">Mais vendidos</div>
+      <h2 class="sec__title" id="products-title">O que está em alta agora.</h2>
+    </div>
+
+    <!-- Busca + Filtros -->
+    <div class="products-controls reveal">
+      <div class="search-wrap">
+        <span class="search-wrap__icon" aria-hidden="true">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        </span>
+        <input
+          type="search"
+          id="productSearch"
+          class="search-input"
+          placeholder="Buscar por nome ou marca..."
+          autocomplete="off"
+          aria-label="Buscar produtos"
+        />
+        <button class="search-clear" id="searchClear" aria-label="Limpar busca">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+        </button>
+      </div>
+
+      <div class="filter-pills" role="group" aria-label="Filtrar por categoria">
+        <button class="filter-pill active" data-filter="all">Todos</button>
+        <button class="filter-pill" data-filter="smartphone">Smartphones</button>
+        <button class="filter-pill" data-filter="acessorio">Acessórios</button>
+      </div>
+
+      <span class="products-count" id="productsCount" aria-live="polite"></span>
+    </div>
+
+    <!-- Grid renderizado pelo JS -->
+    <div class="products__grid" id="productsGrid" aria-label="Lista de produtos"></div>
+
+    <div class="products__footer reveal">
+      <a href="https://wa.me/557781413984?text=Ol%C3%A1%21+Quero+ver+o+cat%C3%A1logo+completo+da+Carbono+Cell." class="btn-secondary" target="_blank" rel="noopener noreferrer">
+        Ver catálogo completo no WhatsApp
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     BANNER DE OFERTAS
+════════════════════════════════════════════════ -->
+<section class="banner" id="ofertas" aria-labelledby="banner-title">
+  <div class="banner__inner">
+    <div class="banner__card reveal">
+      <div class="banner__bg" aria-hidden="true"></div>
+      <div class="banner__grid-bg" aria-hidden="true"></div>
+      <div class="banner__content">
+        <div class="banner__eyebrow">
+          <div class="banner__countdown-wrap" role="timer" aria-live="polite" aria-label="Tempo restante da oferta">
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#F5C000" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            <span class="banner__countdown" id="countdown">23:59:47</span>
+          </div>
+          Oferta relâmpago
+        </div>
+        <h2 class="banner__title" id="banner-title">Ofertas<br/>especiais em<br/><em>smartphones.</em></h2>
+        <p class="banner__desc">Aproveite as melhores condições do sertão. Parcelamento em até 12× sem juros no cartão.</p>
+        <div class="banner__actions">
+          <a href="#produtos" class="btn-primary">Ver ofertas <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+          <a href="https://wa.me/557781413984" class="btn-secondary" target="_blank" rel="noopener noreferrer">Consultar pelo WhatsApp</a>
+        </div>
+        <div class="banner__chips">
+          <span class="banner__chip banner__chip--highlight">Parcelamento 12× sem juros</span>
+          <span class="banner__chip">Garantia de fábrica</span>
+          <span class="banner__chip">Produto original</span>
+        </div>
+      </div>
+      <div class="banner__visual" aria-hidden="true">
+        <div class="banner__phones">
+          <div class="banner__phone banner__phone--back"><svg viewBox="0 0 160 160" fill="none" class="banner__phone-logo"><path d="M80,12 L150,63 L150,82 L80,33 L10,82 L10,63 Z" fill="#F5C000" opacity="0.4"/><path d="M80,55 L116,80 L80,105 L44,80 Z" fill="#F5C000" opacity="0.4"/><path d="M80,68 L100,80 L80,92 L60,80 Z" fill="#1A1A1A" opacity="0.4"/><path d="M80,148 L10,97 L10,78 L80,127 L150,78 L150,97 Z" fill="#F5C000" opacity="0.4"/></svg></div>
+          <div class="banner__phone banner__phone--front"><svg viewBox="0 0 160 160" fill="none" class="banner__phone-logo"><path d="M80,12 L150,63 L150,82 L80,33 L10,82 L10,63 Z" fill="#F5C000"/><path d="M80,55 L116,80 L80,105 L44,80 Z" fill="#F5C000"/><path d="M80,68 L100,80 L80,92 L60,80 Z" fill="#222"/><path d="M80,148 L10,97 L10,78 L80,127 L150,78 L150,97 Z" fill="#F5C000"/></svg></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     CARBONO MAGAZINE
+════════════════════════════════════════════════ -->
+<section class="sec magazine" id="magazine" aria-labelledby="magazine-title">
+  <div class="sec__amber-line" aria-hidden="true"></div>
+  <div class="magazine__inner">
+
+    <!-- Cabeçalho -->
+    <div class="sec__header reveal">
+      <div class="sec__tag">Carbono Magazine</div>
+      <h2 class="sec__title" id="magazine-title">Tudo que você<br/>precisa em<br/><em>um só lugar.</em></h2>
+      <p class="magazine__sub">A <strong style="color:#F5C000;">Carbono Magazine</strong> é a sua loja de variedades no sertão baiano. Garrafas, bolsas, acessórios para casa, brinquedos, utilidades, óculos e muito mais — tudo com o mesmo atendimento de qualidade que você já conhece.</p>
+    </div>
+
+    <!-- Chips de categorias -->
+    <div class="magazine__cats reveal">
+      <span class="magazine__cat">🏠 Casa &amp; Cozinha</span>
+      <span class="magazine__cat">👜 Bolsas &amp; Acessórios</span>
+      <span class="magazine__cat">🧸 Brinquedos</span>
+      <span class="magazine__cat">☕ Utilidades</span>
+      <span class="magazine__cat">🕶️ Óculos</span>
+      <span class="magazine__cat">e muito mais...</span>
+    </div>
+
+    <!-- Grid de produtos -->
+    <div class="magazine__grid reveal">
+
+      <div class="mag-card">
+        <div class="mag-card__icon">
+          <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20 30 Q20 20 30 18 L55 18 Q62 18 64 26 L68 50 Q70 58 62 60 L18 60 Q10 60 12 50 Z" fill="#1E1E1E" stroke="#F5C000" stroke-width="1.5"/>
+            <path d="M64 28 Q72 28 72 36 Q72 44 64 44" stroke="#F5C000" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+            <rect x="34" y="10" width="4" height="10" rx="2" fill="#F5C000" opacity="0.7"/>
+            <rect x="41" y="8" width="4" height="12" rx="2" fill="#F5C000" opacity="0.5"/>
+            <rect x="48" y="10" width="4" height="10" rx="2" fill="#F5C000" opacity="0.7"/>
+            <path d="M28 60 L28 68 M52 60 L52 68" stroke="#F5C000" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="mag-card__name">Chaleira Elétrica</div>
+        <div class="mag-card__desc">Esquenta rápido, design moderno. Perfeita pro café do dia a dia.</div>
+        <div class="mag-card__price">R$ 60<span>,00</span></div>
+        <a href="https://wa.me/5577991063067?text=Olá! Tenho interesse na Chaleira Elétrica por R$60. Ainda tem disponível?" class="mag-card__btn" target="_blank" rel="noopener noreferrer">
+          Pedir pelo WhatsApp
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        </a>
+      </div>
+
+      <div class="mag-card">
+        <div class="mag-card__icon">
+          <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="28" y="12" width="24" height="10" rx="3" fill="#1E1E1E" stroke="#F5C000" stroke-width="1.5"/>
+            <rect x="22" y="22" width="36" height="6" rx="2" fill="#F5C000" opacity="0.3"/>
+            <rect x="30" y="28" width="20" height="30" rx="3" fill="#1E1E1E" stroke="#F5C000" stroke-width="1.5"/>
+            <path d="M30 35 Q40 32 50 35" stroke="#F5C000" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+            <path d="M30 42 Q40 39 50 42" stroke="#F5C000" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+            <path d="M30 49 Q40 46 50 49" stroke="#F5C000" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+            <rect x="35" y="58" width="10" height="8" rx="2" fill="#F5C000" opacity="0.5"/>
+            <rect x="25" y="65" width="30" height="4" rx="2" fill="#2A2A2A" stroke="#F5C000" stroke-width="1"/>
+          </svg>
+        </div>
+        <div class="mag-card__name">Ferro de Passar</div>
+        <div class="mag-card__desc">Deixa a roupa impecável. Vapor potente e base deslizante.</div>
+        <div class="mag-card__price">R$ 89<span>,00</span></div>
+        <a href="https://wa.me/5577991063067?text=Olá! Tenho interesse no Ferro de Passar por R$89. Ainda tem disponível?" class="mag-card__btn" target="_blank" rel="noopener noreferrer">
+          Pedir pelo WhatsApp
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        </a>
+      </div>
+
+      <div class="mag-card">
+        <div class="mag-card__icon">
+          <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="15" y="30" width="50" height="28" rx="5" fill="#1E1E1E" stroke="#F5C000" stroke-width="1.5"/>
+            <path d="M25 30 L40 18 L55 30" stroke="#F5C000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+            <line x1="40" y1="18" x2="40" y2="12" stroke="#F5C000" stroke-width="1.5" stroke-linecap="round"/>
+            <rect x="25" y="40" width="10" height="8" rx="2" fill="#F5C000" opacity="0.4"/>
+            <rect x="45" y="40" width="10" height="8" rx="2" fill="#F5C000" opacity="0.4"/>
+            <path d="M15 58 Q40 65 65 58" stroke="#F5C000" stroke-width="1" opacity="0.3" fill="none"/>
+          </svg>
+        </div>
+        <div class="mag-card__name">Sanduicheira</div>
+        <div class="mag-card__desc">Lanche rápido e gostoso na hora que quiser. Antiaderente.</div>
+        <div class="mag-card__price">R$ 135<span>,00</span></div>
+        <a href="https://wa.me/5577991063067?text=Olá! Tenho interesse na Sanduicheira por R$135. Ainda tem disponível?" class="mag-card__btn" target="_blank" rel="noopener noreferrer">
+          Pedir pelo WhatsApp
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        </a>
+      </div>
+
+      <div class="mag-card">
+        <div class="mag-card__icon">
+          <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="40" cy="22" rx="16" ry="10" fill="#1E1E1E" stroke="#F5C000" stroke-width="1.5"/>
+            <path d="M24 22 L20 62 Q20 68 40 68 Q60 68 60 62 L56 22" stroke="#F5C000" stroke-width="1.5" fill="#1A1A1A"/>
+            <ellipse cx="40" cy="22" rx="16" ry="10" fill="none" stroke="#F5C000" stroke-width="1.5"/>
+            <path d="M56 30 Q66 30 66 38 Q66 46 56 46" stroke="#F5C000" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+            <line x1="33" y1="35" x2="47" y2="35" stroke="#F5C000" stroke-width="1" opacity="0.4" stroke-linecap="round"/>
+            <line x1="31" y1="45" x2="49" y2="45" stroke="#F5C000" stroke-width="1" opacity="0.4" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="mag-card__name">Liquidificador</div>
+        <div class="mag-card__desc">Potente e silencioso. Ideal pra vitaminas, sucos e muito mais.</div>
+        <div class="mag-card__price">R$ 95<span>,00</span></div>
+        <a href="https://wa.me/5577991063067?text=Olá! Tenho interesse no Liquidificador por R$95. Ainda tem disponível?" class="mag-card__btn" target="_blank" rel="noopener noreferrer">
+          Pedir pelo WhatsApp
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        </a>
+      </div>
+
+      <div class="mag-card">
+        <div class="mag-card__icon">
+          <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M28 20 Q28 14 40 14 Q52 14 52 20 L55 58 Q55 64 40 64 Q25 64 25 58 Z" fill="#1E1E1E" stroke="#F5C000" stroke-width="1.5"/>
+            <path d="M52 28 Q60 26 62 34 Q64 42 56 44" stroke="#F5C000" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+            <ellipse cx="40" cy="20" rx="12" ry="6" fill="none" stroke="#F5C000" stroke-width="1.2" opacity="0.5"/>
+            <line x1="35" y1="36" x2="45" y2="36" stroke="#F5C000" stroke-width="1" opacity="0.4" stroke-linecap="round"/>
+            <line x1="34" y1="44" x2="46" y2="44" stroke="#F5C000" stroke-width="1" opacity="0.4" stroke-linecap="round"/>
+            <path d="M36 14 Q36 10 40 10 Q44 10 44 14" stroke="#F5C000" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+          </svg>
+        </div>
+        <div class="mag-card__name">Garrafa de Café</div>
+        <div class="mag-card__desc">Mantém o café quente por horas. Companheira do dia a dia.</div>
+        <div class="mag-card__price">R$ 30<span>,00</span></div>
+        <a href="https://wa.me/5577991063067?text=Olá! Tenho interesse na Garrafa de Café por R$30. Ainda tem disponível?" class="mag-card__btn" target="_blank" rel="noopener noreferrer">
+          Pedir pelo WhatsApp
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        </a>
+      </div>
+
+    </div>
+
+    <!-- CTA Magazine -->
+    <div class="magazine__cta reveal">
+      <p>Tem muito mais te esperando na loja! Fale com a gente pelo WhatsApp e veja tudo que temos disponível.</p>
+      <a href="https://wa.me/5577991063067?text=Olá! Quero ver o catálogo completo da Carbono Magazine." class="btn-primary" target="_blank" rel="noopener noreferrer">
+        Ver catálogo completo
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<style>
+/* ── CARBONO MAGAZINE SECTION ─────────────────────────── */
+.magazine { background: #0D0D0D; }
+.magazine__inner { max-width: 1200px; margin: 0 auto; padding: 80px 24px; }
+.magazine__sub { color: var(--muted); font-size: 15px; line-height: 1.7; max-width: 580px; margin-top: 16px; }
+
+.magazine__cats {
+  display: flex; flex-wrap: wrap; gap: 8px; margin: 32px 0 48px;
+}
+.magazine__cat {
+  background: #1A1A1A; border: 1px solid #2A2A2A;
+  color: #ccc; font-size: 12px; font-weight: 600;
+  padding: 6px 14px; border-radius: 999px; letter-spacing: 0.03em;
+}
+
+.magazine__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.mag-card {
+  background: #161616; border: 1px solid #242424;
+  border-radius: 16px; padding: 24px 20px 20px;
+  display: flex; flex-direction: column; gap: 10px;
+  transition: border-color .2s, transform .2s;
+}
+.mag-card:hover { border-color: #F5C000; transform: translateY(-3px); }
+
+.mag-card__icon {
+  width: 72px; height: 72px;
+  background: #1E1E1E; border-radius: 12px;
+  display: flex; align-items: center; justify-content: center;
+  padding: 10px; margin-bottom: 4px;
+}
+.mag-card__icon svg { width: 100%; height: 100%; }
+
+.mag-card__name { font-size: 15px; font-weight: 700; color: #fff; }
+.mag-card__desc { font-size: 12px; color: var(--muted); line-height: 1.5; flex: 1; }
+.mag-card__price {
+  font-size: 22px; font-weight: 900; color: #F5C000; letter-spacing: -0.02em;
+}
+.mag-card__price span { font-size: 14px; font-weight: 600; opacity: 0.7; }
+
+.mag-card__btn {
+  display: flex; align-items: center; justify-content: center; gap: 6px;
+  background: #25D366; color: #fff;
+  font-size: 12px; font-weight: 700; letter-spacing: 0.04em;
+  padding: 10px 14px; border-radius: 8px;
+  text-decoration: none; margin-top: 4px;
+  transition: opacity .2s;
+}
+.mag-card__btn:hover { opacity: 0.85; }
+
+.magazine__cta {
+  margin-top: 48px; padding: 36px 32px;
+  background: #161616; border: 1px solid #2A2A2A;
+  border-radius: 16px; display: flex;
+  align-items: center; justify-content: space-between; gap: 24px;
+  flex-wrap: wrap;
+}
+.magazine__cta p { color: var(--muted); font-size: 15px; max-width: 480px; line-height: 1.6; }
+
+@media (max-width: 600px) {
+  .magazine__grid { grid-template-columns: repeat(2, 1fr); }
+  .magazine__cta { flex-direction: column; text-align: center; }
+}
+</style>
+
+<!-- ═══════════════════════════════════════════════
+     ASSISTÊNCIA TÉCNICA
+════════════════════════════════════════════════ -->
+<section class="tech sec" id="servicos" aria-labelledby="tech-title">
+  <div class="sec__amber-line" aria-hidden="true"></div>
+  <div class="tech__inner">
+    <div class="tech__layout">
+            <div class="tech__visual reveal">
+        <div class="tech__circle-bg" aria-hidden="true"></div>
+        <div class="tech__services-grid">
+
+          <div class="tech-svc">
+            <div class="tech-svc__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#F5C000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="9" y1="7" x2="15" y2="7"/><line x1="9" y1="11" x2="11" y2="11"/></svg>
+            </div>
+            <div class="tech-svc__text">
+              <div class="tech-svc__name">Troca de Tela</div>
+              <div class="tech-svc__note">Original e compatível, com garantia</div>
+            </div>
+          </div>
+
+          <div class="tech-svc">
+            <div class="tech-svc__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#F5C000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><polyline points="13 2 13 9 20 9"/><line x1="9" y1="15" x2="15" y2="15"/></svg>
+            </div>
+            <div class="tech-svc__text">
+              <div class="tech-svc__name">Transferência de Arquivos</div>
+              <div class="tech-svc__note">Fotos, contatos e apps para o novo aparelho com segurança</div>
+            </div>
+          </div>
+
+          <div class="tech-svc">
+            <div class="tech-svc__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#F5C000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </div>
+            <div class="tech-svc__text">
+              <div class="tech-svc__name">Diagnóstico Grátis</div>
+              <div class="tech-svc__note">Identificamos o problema sem cobrar</div>
+            </div>
+          </div>
+
+          <div class="tech-svc">
+            <div class="tech-svc__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#F5C000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <div class="tech-svc__text">
+              <div class="tech-svc__name">Proteção de Dados</div>
+              <div class="tech-svc__note">Seus arquivos seguros durante o reparo</div>
+            </div>
+          </div>
+
+          <div class="tech-svc">
+            <div class="tech-svc__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#F5C000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+            </div>
+            <div class="tech-svc__text">
+              <div class="tech-svc__name">Outros Reparos</div>
+              <div class="tech-svc__note">Alto-falante, câmera, botões e mais</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="tech__content reveal">
+        <div class="sec__tag">Assistência Técnica</div>
+        <h2 class="tech__title" id="tech-title">Seu aparelho<br/>nas mãos de<br/><em>quem entende.</em></h2>
+        <p class="tech__desc">Nossa equipe técnica é especializada nos principais modelos do mercado. Trabalhamos rápido, com transparência e sem surpresas no orçamento.</p>
+        <div class="tech__promise">
+          <div class="tech__promise-item"><div class="tech__promise-dot"><svg viewBox="0 0 24 24" fill="none" stroke="#F5C000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg></div>Diagnóstico 100% gratuito</div>
+          <div class="tech__promise-item"><div class="tech__promise-dot"><svg viewBox="0 0 24 24" fill="none" stroke="#F5C000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg></div>Orçamento sem compromisso</div>
+          <div class="tech__promise-item"><div class="tech__promise-dot"><svg viewBox="0 0 24 24" fill="none" stroke="#F5C000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg></div>Garantia em todos os serviços</div>
+          <div class="tech__promise-item"><div class="tech__promise-dot"><svg viewBox="0 0 24 24" fill="none" stroke="#F5C000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg></div>Atendimento rápido e transparente</div>
+        </div>
+        <a href="https://wa.me/557781413984" class="btn-primary" target="_blank" rel="noopener noreferrer">Agendar pelo WhatsApp <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     DIFERENCIAIS DA EMPRESA
+════════════════════════════════════════════════ -->
+<section class="brand-diffs" id="sobre" aria-labelledby="bd-title">
+  <div class="sec__amber-line" aria-hidden="true"></div>
+  <div class="brand-diffs__inner">
+    <div class="sec__header reveal">
+      <div class="sec__tag">Nossa história</div>
+      <h2 class="sec__title" id="bd-title">Nascemos em Pindaí.<br/>Crescemos com você.</h2>
+    </div>
+    <div class="bd__featured reveal">
+      <div class="bd__feat-card"><div class="bd__feat-num">+<span>5</span>K</div><div class="bd__feat-title">Clientes atendidos</div><div class="bd__feat-desc">Mais de cinco mil pessoas e empresas em Pindaí e região já escolheram as Lojas Carbono. Cada um com atenção individual, sem ficha, sem espera desnecessária.</div></div>
+      <div class="bd__feat-card"><div class="bd__feat-num"><span>5</span><sup>★</sup></div><div class="bd__feat-title">Nota no Google</div><div class="bd__feat-desc">Avaliação máxima conquistada organicamente — sem campanhas de nota. Resultado de um atendimento que não terceiriza responsabilidade e não empurra o problema para o cliente.</div></div>
+    </div>
+    <div class="bd__row reveal">
+      <div class="bd__small-card"><div class="bd__small-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#F5C000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div><div class="bd__small-title">Atendimento com alma</div><div class="bd__small-desc">Você não é um número. Lembramos do seu nome, do seu aparelho e do que você precisa — mesmo na segunda visita.</div></div>
+      <div class="bd__small-card"><div class="bd__small-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#F5C000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg></div><div class="bd__small-title">Desde 2020 no mercado</div><div class="bd__small-desc">Mais de 4 anos construindo reputação no sertão baiano. Quem fica tanto tempo é porque faz certo.</div></div>
+      <div class="bd__small-card"><div class="bd__small-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#F5C000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div class="bd__small-title">Presença local de verdade</div><div class="bd__small-desc">Somos de Pindaí, conhecemos cada bairro e cada cliente. Tecnologia premium sem precisar sair da cidade.</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     DEPOIMENTOS
+════════════════════════════════════════════════ -->
+<section class="testimonials" id="depoimentos" aria-labelledby="testi-title">
+  <div class="sec__amber-line" aria-hidden="true"></div>
+  <div class="testimonials__inner">
+    <div class="sec__header reveal">
+      <div class="sec__tag">Depoimentos</div>
+      <h2 class="sec__title" id="testi-title">O que dizem nossos clientes.</h2>
+    </div>
+    <div class="testi__grid reveal">
+      <div class="testi-card"><div class="testi__stars" aria-label="5 estrelas"><span class="testi__star">★</span><span class="testi__star">★</span><span class="testi__star">★</span><span class="testi__star">★</span><span class="testi__star">★</span></div><p class="testi__text">Levei meu Galaxy com a tela quebrada e em menos de duas horas estava pronto. Preço justo, atendimento excelente e ainda me deram dica de capinha resistente. Recomendo demais!</p><div class="testi__author"><div class="testi__avatar" aria-hidden="true">A</div><div><div class="testi__name">Ana Paula Souza</div><div class="testi__location">Pindaí · BA</div></div><span class="testi__source">Google</span></div></div>
+      <div class="testi-card"><div class="testi__stars" aria-label="5 estrelas"><span class="testi__star">★</span><span class="testi__star">★</span><span class="testi__star">★</span><span class="testi__star">★</span><span class="testi__star">★</span></div><p class="testi__text">Comprei meu iPhone 15 aqui e foi uma experiência completamente diferente das lojas da cidade grande. Explicaram tudo, parcelaram sem burocracia e ainda ativaram o aparelho na hora.</p><div class="testi__author"><div class="testi__avatar" aria-hidden="true">R</div><div><div class="testi__name">Rafael Mendes</div><div class="testi__location">Pindaí · BA</div></div><span class="testi__source">Google</span></div></div>
+      <div class="testi-card"><div class="testi__stars" aria-label="5 estrelas"><span class="testi__star">★</span><span class="testi__star">★</span><span class="testi__star">★</span><span class="testi__star">★</span><span class="testi__star">★</span></div><p class="testi__text">Meu celular não carregava mais. O diagnóstico foi grátis, orçaram em 10 minutos e consertaram o conector no mesmo dia. Saí pagando muito menos do que eu esperava. Excelente!</p><div class="testi__author"><div class="testi__avatar" aria-hidden="true">C</div><div><div class="testi__name">Carla Vieira</div><div class="testi__location">Candiba · BA</div></div><span class="testi__source">WhatsApp</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     INSTAGRAM
+════════════════════════════════════════════════ -->
+<section class="insta" id="instagram" aria-labelledby="insta-title">
+  <div class="sec__amber-line" aria-hidden="true"></div>
+  <div class="insta__inner">
+    <div class="insta__header-row reveal">
+      <div><div class="sec__tag">Redes sociais</div><h2 class="sec__title" id="insta-title">Siga as Lojas Carbono.</h2></div>
+      <div style="display:flex;gap:10px;flex-wrap:wrap;">
+        <a href="https://www.instagram.com/carbonocell_" class="insta__handle" target="_blank" rel="noopener noreferrer">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke-width="2.5"/></svg>
+          @carbonocell_
+        </a>
+        <a href="https://www.instagram.com/carbonomagazine_" class="insta__handle" target="_blank" rel="noopener noreferrer">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke-width="2.5"/></svg>
+          @carbonomagazine_
+        </a>
+      </div>
+    </div>
+    <div class="insta__grid reveal">
+      <div class="insta-post insta-post--1" role="img" aria-label="Post: promoção de smartphone"><div class="insta-post__inner"><svg width="60%" viewBox="0 0 100 160" fill="none" aria-hidden="true"><rect x="8" y="3" width="84" height="154" rx="16" fill="#1E1E1E" stroke="#2E2E2E" stroke-width="1"/><rect x="13" y="8" width="74" height="144" rx="12" fill="#141414"/><rect x="35" y="10" width="30" height="7" rx="3.5" fill="#222"/><rect x="16" y="35" width="68" height="90" rx="3" fill="#0C0C0C"/><path d="M50 72 L60 80 L50 88 L40 80 Z" fill="#F5C000" opacity="0.8"/><path d="M50 60 L63 72 L63 80 L50 68 L37 80 L37 72 Z" fill="#F5C000" opacity="0.5"/><path d="M50 100 L37 88 L37 80 L50 92 L63 80 L63 88 Z" fill="#F5C000" opacity="0.5"/><circle cx="50" cy="140" r="4" fill="#1E1E1E"/></svg></div><div class="insta-post__overlay"><span><svg width="13" height="13" viewBox="0 0 24 24" fill="white" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>248</span></div></div>
+      <div class="insta-post insta-post--2" role="img" aria-label="Post: acessórios"><div class="insta-post__inner"><svg width="58%" viewBox="0 0 100 100" fill="none" aria-hidden="true"><path d="M50 12 C28 12 10 30 10 52 L10 68 C10 73 14 76 18 76 L27 76 C31 76 33 73 33 70 L33 56 C33 53 30 50 27 50 L18 50 C19 35 33 23 50 23 C67 23 81 35 82 50 L73 50 C70 50 67 53 67 56 L67 70 C67 73 69 76 73 76 L82 76 C86 76 90 73 90 68 L90 52 C90 30 72 12 50 12Z" fill="#2A2A2A" stroke="#F5C000" stroke-width="1.2"/><circle cx="50" cy="50" r="6" fill="#F5C000" opacity="0.4"/><circle cx="50" cy="50" r="2.5" fill="#F5C000" opacity="0.7"/></svg></div><div class="insta-post__overlay"><span><svg width="13" height="13" viewBox="0 0 24 24" fill="white" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>189</span></div></div>
+      <div class="insta-post insta-post--3" role="img" aria-label="Post: promoção 30% off"><div class="insta-post__inner" style="flex-direction:column;gap:8px;padding:16px;text-align:center;"><div style="font-size:9px;font-weight:800;letter-spacing:0.15em;color:var(--muted);text-transform:uppercase;">Promoção</div><div style="font-size:22px;font-weight:900;letter-spacing:-0.03em;color:var(--amber);line-height:1;">30%<br/><span style="font-size:11px;font-weight:700;color:var(--white);letter-spacing:0.05em;">OFF</span></div><div style="font-size:9px;font-weight:600;color:var(--muted);letter-spacing:0.1em;text-transform:uppercase;">Galaxy A Series</div></div><div class="insta-post__overlay"><span><svg width="13" height="13" viewBox="0 0 24 24" fill="white" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>312</span></div></div>
+      <div class="insta-post insta-post--4" role="img" aria-label="Post: assistência técnica"><div class="insta-post__inner"><svg width="52%" viewBox="0 0 100 100" fill="none" aria-hidden="true"><path d="M60 25a3 3 0 0 0 0 5.2l6.6 6.6a3 3 0 0 0 4.2 0L86 21.6A25 25 0 0 1 53 54.8L24.6 83.2a8.5 8.5 0 0 1-12-12L41 43A25 25 0 0 1 60 25z" fill="none" stroke="#F5C000" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div class="insta-post__overlay"><span><svg width="13" height="13" viewBox="0 0 24 24" fill="white" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>97</span></div></div>
+      <div class="insta-post insta-post--5" role="img" aria-label="Post: marca Lojas Carbono"><div class="insta-post__inner"><svg width="52%" viewBox="0 0 160 160" fill="none" aria-hidden="true"><path d="M80,12 L150,63 L150,82 L80,33 L10,82 L10,63 Z" fill="#F5C000" opacity="0.7"/><path d="M80,55 L116,80 L80,105 L44,80 Z" fill="#F5C000" opacity="0.7"/><path d="M80,68 L100,80 L80,92 L60,80 Z" fill="#111a14" opacity="0.7"/><path d="M80,148 L10,97 L10,78 L80,127 L150,78 L150,97 Z" fill="#F5C000" opacity="0.7"/></svg></div><div class="insta-post__overlay"><span><svg width="13" height="13" viewBox="0 0 24 24" fill="white" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>421</span></div></div>
+      <div class="insta-post insta-post--6" role="img" aria-label="Post: dica de bateria"><div class="insta-post__inner" style="flex-direction:column;gap:6px;padding:14px;text-align:center;"><div style="font-size:8px;font-weight:800;letter-spacing:0.18em;color:var(--muted);text-transform:uppercase;">Dica</div><div style="font-size:13px;font-weight:800;letter-spacing:-0.02em;color:var(--white);line-height:1.2;">Bateria<br/>na metade?</div><div style="width:24px;height:2px;background:var(--amber);margin:4px auto;border-radius:1px;"></div><div style="font-size:9px;font-weight:500;color:var(--muted);line-height:1.5;">A gente troca<br/>na hora.</div></div><div class="insta-post__overlay"><span><svg width="13" height="13" viewBox="0 0 24 24" fill="white" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>156</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     CTA FINAL
+════════════════════════════════════════════════ -->
+<section class="cta-final" id="cta-final" aria-labelledby="cta-title">
+  <div class="sec__amber-line" aria-hidden="true"></div>
+  <div class="cta-final__inner">
+    <div class="cta-final__card reveal">
+      <div class="cta-final__glow-left"  aria-hidden="true"></div>
+      <div class="cta-final__glow-right" aria-hidden="true"></div>
+      <div class="cta-final__grid-bg"   aria-hidden="true"></div>
+      <div class="cta-final__tag">Vamos começar?</div>
+      <h2 class="cta-final__title" id="cta-title">O próximo passo<br/>é <em>um clique</em> de distância.</h2>
+      <p class="cta-final__desc">Seja para comprar um novo smartphone, consertar o seu ou encontrar o acessório certo — as Lojas Carbono estão em Pindaí pronta para te atender.</p>
+      <div class="cta-final__actions">
+        <a href="https://wa.me/557781413984" class="btn-primary" target="_blank" rel="noopener noreferrer">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Falar no WhatsApp
+        </a>
+        <a href="#produtos" class="btn-secondary">Ver produtos</a>
+      </div>
+      <div class="cta-final__info">
+        <div class="cta-final__info-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#F5C000" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Pindaí, Bahia
+        </div>
+        <div class="cta-final__info-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#F5C000" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          Seg–Sex 07h–18h · Sáb 07h–15h
+        </div>
+        <div class="cta-final__info-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#F5C000" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Produtos 100% originais
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ═══════════════════════════════════════════════
+     RODAPÉ
+════════════════════════════════════════════════ -->
+<footer class="footer" id="contato" aria-label="Rodapé">
+  <div class="footer__top">
+
+    <!-- Brand col -->
+    <div class="footer__brand-col">
+      <a href="#hero" class="footer__brand-logo" aria-label="Lojas Carbono">
+        <svg viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M80,12 L150,63 L150,82 L80,33 L10,82 L10,63 Z" fill="#F5C000"/>
+          <path d="M80,55 L116,80 L80,105 L44,80 Z" fill="#F5C000"/>
+          <path d="M80,68 L100,80 L80,92 L60,80 Z" fill="#111111"/>
+          <path d="M80,148 L10,97 L10,78 L80,127 L150,78 L150,97 Z" fill="#F5C000"/>
+        </svg>
+        <div>
+          <div class="footer__brand-name">Lojas Carbono</div>
+          <div class="footer__brand-sub">Pindaí · BA</div>
+        </div>
+      </a>
+      <p class="footer__tagline">Smartphones, acessórios, assistência técnica e utilidades em geral. Produtos originais, atendimento personalizado e preço justo — tudo no coração do sertão.</p>
+      <div class="footer__socials">
+        <a href="https://www.instagram.com/carbonocell_" class="footer__social" target="_blank" rel="noopener noreferrer" aria-label="Instagram Carbono Cell">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke-width="2.5"/></svg>
+        </a>
+        <a href="https://www.instagram.com/carbonomagazine_" class="footer__social" target="_blank" rel="noopener noreferrer" aria-label="Instagram Carbono Magazine">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke-width="2.5"/></svg>
+        </a>
+        <a href="https://facebook.com/carbonocell" class="footer__social" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+        </a>
+        <a href="https://wa.me/557781413984" class="footer__social" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        </a>
+        <a href="https://tiktok.com/@carbonocell_?igsh=MnJ1Y3dpdmRuaTRm" class="footer__social" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.34 6.34 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.76a4.85 4.85 0 0 1-1.01-.07z"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- Nav col -->
+    <div>
+      <div class="footer__col-title">Navegação</div>
+      <ul class="footer__links">
+        <li><a href="#hero">Início</a></li>
+        <li><a href="#categorias">Categorias</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#ofertas">Ofertas</a></li>
+        <li><a href="#servicos">Assistência Técnica</a></li>
+        <li><a href="#magazine" style="color:#F5C000;">Carbono Magazine</a></li>
+        <li><a href="#sobre">Sobre nós</a></li>
+      </ul>
+    </div>
+
+    <!-- Services col -->
+    <div>
+      <div class="footer__col-title">Serviços</div>
+      <ul class="footer__links">
+        <li><a href="#servicos">Troca de Tela</a></li>
+        <li><a href="#servicos">Transferência de Arquivos</a></li>
+        <li><a href="#servicos">Diagnóstico Grátis</a></li>
+        <li><a href="#servicos">Proteção de Dados</a></li>
+        <li><a href="#servicos">Outros Reparos</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact col -->
+    <div>
+      <div class="footer__col-title">Contato</div>
+      <div class="footer__contact-list">
+
+        <div style="font-size:10px;font-weight:700;letter-spacing:0.12em;color:#F5C000;text-transform:uppercase;margin-bottom:6px;">Carbono Cell</div>
+        <div class="footer__contact-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#F5C000" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Rua Tibério Fausto, 275<br/>Centro, Pindaí – BA
+        </div>
+        <div class="footer__contact-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#F5C000" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.18h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 8.91a16 16 0 0 0 6 6l.81-.81a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <a href="https://wa.me/557781413984">(77) 8141-3984</a>
+        </div>
+        <div class="footer__contact-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#F5C000" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke-width="2.5"/></svg>
+          <a href="https://www.instagram.com/carbonocell_" target="_blank" rel="noopener noreferrer">@carbonocell_</a>
+        </div>
+
+        <div style="font-size:10px;font-weight:700;letter-spacing:0.12em;color:#F5C000;text-transform:uppercase;margin:14px 0 6px;">Carbono Magazine</div>
+        <div class="footer__contact-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#F5C000" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Pindaí – BA
+        </div>
+        <div class="footer__contact-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#F5C000" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.18h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 8.91a16 16 0 0 0 6 6l.81-.81a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <a href="https://wa.me/5577991063067">(77) 99106-3067</a>
+        </div>
+        <div class="footer__contact-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#F5C000" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke-width="2.5"/></svg>
+          <a href="https://www.instagram.com/carbonomagazine_" target="_blank" rel="noopener noreferrer">@carbonomagazine_</a>
+        </div>
+
+        <div class="footer__contact-item" style="margin-top:10px;">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#F5C000" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          Seg–Sex: 07h às 18h<br/>Sáb: 07h às 15h
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer__bottom">
+    <p class="footer__copy">© 2025 <span>Lojas Carbono</span>. Todos os direitos reservados. Desenvolvido em <span>Pindaí · BA</span>.</p>
+    <nav class="footer__legal" aria-label="Links legais">
+      <a href="#">Política de Privacidade</a>
+      <a href="#">Termos de Uso</a>
+      <a href="#">Trocas e Devoluções</a>
+    </nav>
+  </div>
+</footer>
+
+<!-- ═══════════════════════════════════════════════
+     WHATSAPP FLUTUANTE
+════════════════════════════════════════════════ -->
+<div class="float-wa" aria-label="Contato rápido">
+  <div class="float-wa__tooltip" aria-hidden="true">Fale conosco agora!</div>
+  <a href="https://wa.me/557781413984" class="float-wa__btn" target="_blank" rel="noopener noreferrer" aria-label="Abrir WhatsApp da Lojas Carbono">
+    <svg viewBox="0 0 24 24" fill="white" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+</div>
+
+<!-- Back to top -->
+<button id="backToTop" aria-label="Voltar ao topo" style="position:fixed;bottom:96px;right:28px;z-index:199;width:40px;height:40px;border-radius:50%;background:var(--surface);border:1px solid var(--border);color:var(--muted);display:flex;align-items:center;justify-content:center;cursor:pointer;opacity:0;transform:translateY(10px);transition:opacity 0.3s,transform 0.3s,border-color 0.2s,color 0.2s;" onmouseover="this.style.borderColor='var(--amber)';this.style.color='var(--amber)'" onmouseout="this.style.borderColor='var(--border)';this.style.color='var(--muted)'">
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 15l-6-6-6 6"/></svg>
+</button>
+
+<style>
+#backToTop.visible { opacity: 1 !important; transform: translateY(0) !important; }
+</style>
+
+<script>
+/* ═══════════════════════════════════════════════════════════════
+   CARBONO CELL — script.js
+   Produtos · Modal · Filtro · Busca · WhatsApp · Animações
+   ════════════════════════════════════════════════════════════ */
+
+'use strict';
+
+/* ════════════════════════════════════════════════════════════
+   CONFIG GLOBAL
+════════════════════════════════════════════════════════════ */
+const CONFIG = {
+  whatsapp: '557781413984',
+  whatsappMagazine: '5577991063067',
+  instagram: 'https://www.instagram.com/carbonocell_',
+  instagramMagazine: 'https://www.instagram.com/carbonomagazine_',
+  storeName: 'Lojas Carbono'
+};
+
+/* ════════════════════════════════════════════════════════════
+   CATÁLOGO DE PRODUTOS
+   Edite apenas este array para gerenciar todo o catálogo.
+════════════════════════════════════════════════════════════ */
+const PRODUCTS = [
+  /* ── SAMSUNG ─────────────────────────────────────────── */
+  {
+    id: 1,
+    imageUrl: 'https://images.samsung.com/is/image/samsung/p6pim/br/sm-a075mzkpzto/gallery/br-galaxy-a07-sm-a075-sm-a075mzkpzto-533493105.jpg',
+    imageFallbacks: ['https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a07.jpg'],
+    brand: 'Samsung',
+    name: 'Galaxy A07 4/128GB',
+    category: 'smartphone',
+    price: 960,
+    installment: 93,
+    oldPrice: null,
+    badge: 'hot',
+    badgeLabel: '🔥 Mais vendido',
+    description: 'Tela 6,5" HD+, câmera tripla 50MP, bateria 5000mAh e 4GB RAM. Ótimo custo-benefício com Android 12.',
+    specs: ['Tela 6,5" HD+', '4GB RAM + 128GB', 'Câmera 50MP + 2MP + 2MP', 'Bateria 5000mAh', 'Android 12'],
+    svg: `<svg viewBox="0 0 120 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="10" y="4" width="100" height="212" rx="18" fill="#1A1A1A" stroke="#2E2E2E" stroke-width="1.5"/>
+      <rect x="16" y="10" width="88" height="200" rx="14" fill="#131313"/>
+      <rect x="40" y="13" width="40" height="9" rx="4.5" fill="#222"/>
+      <rect x="20" y="48" width="80" height="124" rx="4" fill="#0C0C0C"/>
+      <circle cx="60" cy="110" r="16" fill="none" stroke="#F5C000" stroke-width="1.2" opacity="0.5"/>
+      <text x="60" y="115" text-anchor="middle" font-size="14" font-weight="900" fill="#F5C000" opacity="0.7" font-family="Arial">A07</text>
+      <circle cx="60" cy="198" r="5" fill="#222"/>
+    </svg>`
+  },
+  {
+    id: 2,
+    imageUrl: 'https://images.samsung.com/is/image/samsung/p6pim/br/sm-a175mzkpzto/gallery/br-galaxy-a17-sm-a175-sm-a175mzkpzto-thumb.jpg',
+    imageFallbacks: ['https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a17.jpg'],
+    brand: 'Samsung',
+    name: 'Galaxy A17 4/128GB',
+    category: 'smartphone',
+    price: 1190,
+    installment: 115,
+    oldPrice: null,
+    badge: 'new',
+    badgeLabel: 'Novo',
+    description: 'Tela 6,7" FHD+, câmera quádrupla com 50MP, 4GB RAM e bateria 5000mAh. Design moderno com acabamento premium.',
+    specs: ['Tela 6,7" FHD+', '4GB RAM + 128GB', 'Câmera 50MP + 5MP + 2MP + 2MP', 'Bateria 5000mAh', 'Android 14'],
+    svg: `<svg viewBox="0 0 120 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="10" y="4" width="100" height="212" rx="18" fill="#1C1C24" stroke="#2E2E3A" stroke-width="1.5"/>
+      <rect x="16" y="10" width="88" height="200" rx="14" fill="#13131A"/>
+      <rect x="40" y="13" width="40" height="9" rx="4.5" fill="#222"/>
+      <rect x="20" y="48" width="80" height="124" rx="4" fill="#0C0C12"/>
+      <circle cx="60" cy="110" r="16" fill="none" stroke="#F5C000" stroke-width="1.2" opacity="0.5"/>
+      <text x="60" y="115" text-anchor="middle" font-size="14" font-weight="900" fill="#F5C000" opacity="0.7" font-family="Arial">A17</text>
+      <circle cx="60" cy="198" r="5" fill="#222"/>
+    </svg>`
+  },
+  {
+    id: 3,
+    imageUrl: 'https://images.samsung.com/is/image/samsung/p6pim/br/sm-a266mzkpzto/gallery/br-galaxy-a26-5g-sm-a266-sm-a266mzkpzto-thumb.jpg',
+    imageFallbacks: ['https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a26.jpg'],
+    brand: 'Samsung',
+    name: 'Galaxy A26 5G 8/256GB',
+    category: 'smartphone',
+    price: 1690,
+    installment: 163,
+    oldPrice: null,
+    badge: 'hot',
+    badgeLabel: '🔥 5G',
+    description: 'Tela Super AMOLED 6,7", processador Exynos 850, 8GB RAM e 5G nativo. Câmera 50MP e bateria 5000mAh com carregamento 25W.',
+    specs: ['Tela 6,7" Super AMOLED', '8GB RAM + 256GB', 'Câmera 50MP + 5MP + 2MP', 'Bateria 5000mAh 25W', '5G / Android 15'],
+    svg: `<svg viewBox="0 0 120 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="10" y="4" width="100" height="212" rx="18" fill="#1A1218" stroke="#2E2030" stroke-width="1.5"/>
+      <rect x="16" y="10" width="88" height="200" rx="14" fill="#120E14"/>
+      <circle cx="60" cy="17" r="5" fill="#222"/>
+      <rect x="20" y="48" width="80" height="124" rx="4" fill="#0C080E"/>
+      <text x="60" y="108" text-anchor="middle" font-size="18" font-weight="900" fill="#F5C000" opacity="0.7" font-family="Arial">A26</text>
+      <text x="60" y="124" text-anchor="middle" font-size="11" font-weight="700" fill="#F5C000" opacity="0.5" font-family="Arial">5G</text>
+      <circle cx="60" cy="198" r="5" fill="#222"/>
+    </svg>`
+  },
+  {
+    id: 4,
+    imageUrl: 'https://images.samsung.com/is/image/samsung/p6pim/br/sm-a366mzkpzto/gallery/br-galaxy-a36-5g-sm-a366-sm-a366mzkpzto-thumb.jpg',
+    imageFallbacks: ['https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a36.jpg'],
+    brand: 'Samsung',
+    name: 'Galaxy A36 5G 8/256GB',
+    category: 'smartphone',
+    price: 1990,
+    installment: 191,
+    oldPrice: null,
+    badge: 'new',
+    badgeLabel: 'Novo',
+    description: 'Tela Super AMOLED 6,7" 120Hz, Snapdragon 6 Gen 3, câmera 50MP OIS e 5G. Bateria 5000mAh com carregamento rápido 45W.',
+    specs: ['Tela 6,7" Super AMOLED 120Hz', '8GB RAM + 256GB', 'Câmera 50MP OIS', 'Bateria 5000mAh 45W', '5G / Android 15'],
+    svg: `<svg viewBox="0 0 120 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="10" y="4" width="100" height="212" rx="18" fill="#181818" stroke="#2E2E2E" stroke-width="1.5"/>
+      <rect x="16" y="10" width="88" height="200" rx="14" fill="#111111"/>
+      <circle cx="60" cy="17" r="5" fill="#222"/>
+      <rect x="20" y="48" width="80" height="124" rx="4" fill="#0A0A0A"/>
+      <text x="60" y="108" text-anchor="middle" font-size="18" font-weight="900" fill="#F5C000" opacity="0.7" font-family="Arial">A36</text>
+      <text x="60" y="124" text-anchor="middle" font-size="11" font-weight="700" fill="#F5C000" opacity="0.5" font-family="Arial">5G</text>
+      <circle cx="60" cy="198" r="5" fill="#222"/>
+    </svg>`
+  },
+  /* ── MOTOROLA ─────────────────────────────────────────── */
+  {
+    id: 5,
+    imageUrl: 'https://motorola-global-portal.custhelp.com/ci/fattach/get/1600/0/filename/motorola-moto-g06.jpg',
+    imageFallbacks: ['https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-g06.jpg', 'https://m.media-amazon.com/images/I/71bHLnvCMNL._AC_SX679_.jpg'],
+    brand: 'Motorola',
+    name: 'Moto G06 4/256GB',
+    category: 'smartphone',
+    price: 990,
+    installment: 95,
+    oldPrice: null,
+    badge: 'hot',
+    badgeLabel: '🔥 Destaque',
+    description: 'Tela 6,5" HD+ 90Hz, câmera 50MP com IA, 4GB RAM e 256GB de armazenamento. Bateria 5000mAh e Android 15.',
+    specs: ['Tela 6,5" HD+ 90Hz', '4GB RAM + 256GB', 'Câmera 50MP com IA', 'Bateria 5000mAh', 'Android 15'],
+    svg: `<svg viewBox="0 0 120 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="10" y="4" width="100" height="212" rx="18" fill="#2A1A10" stroke="#3E2A1E" stroke-width="1.5"/>
+      <rect x="16" y="10" width="88" height="200" rx="14" fill="#1E1008"/>
+      <circle cx="60" cy="17" r="5" fill="#2E1A10"/>
+      <rect x="20" y="48" width="80" height="124" rx="4" fill="#160C04"/>
+      <text x="60" y="108" text-anchor="middle" font-size="16" font-weight="900" fill="#F5C000" opacity="0.7" font-family="Arial">G06</text>
+      <circle cx="60" cy="198" r="6" fill="#2A1A10" stroke="#3E2A1E"/>
+    </svg>`
+  },
+  /* ── XIAOMI / REDMI / POCO ──────────────────────────── */
+  {
+    id: 6,
+    imageUrl: 'https://i01.appmifile.com/webfile/globalimg/products/m/redmi-a5/overview/kv.png',
+    imageFallbacks: ['https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-a5.jpg'],
+    brand: 'Xiaomi',
+    name: 'Redmi A5 3/64GB',
+    category: 'smartphone',
+    price: 690,
+    installment: 66,
+    oldPrice: null,
+    badge: null,
+    badgeLabel: null,
+    description: 'Tela 6,88" HD+, bateria 5200mAh, câmera 8MP e 3GB RAM. Ideal para quem busca durabilidade e preço acessível.',
+    specs: ['Tela 6,88" HD+', '3GB RAM + 64GB', 'Câmera 8MP', 'Bateria 5200mAh', 'Android 14 Go'],
+    svg: `<svg viewBox="0 0 120 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="10" y="4" width="100" height="212" rx="18" fill="#1A2A2A" stroke="#2A3E3E" stroke-width="1.5"/>
+      <rect x="16" y="10" width="88" height="200" rx="14" fill="#101E1E"/>
+      <circle cx="60" cy="17" r="5" fill="#1E2E2E"/>
+      <rect x="20" y="48" width="80" height="124" rx="4" fill="#0A1414"/>
+      <text x="60" y="115" text-anchor="middle" font-size="13" font-weight="900" fill="#F5C000" opacity="0.7" font-family="Arial">Redmi A5</text>
+      <circle cx="60" cy="198" r="5" fill="#222"/>
+    </svg>`
+  },
+  {
+    id: 7,
+    imageUrl: 'https://i01.appmifile.com/webfile/globalimg/products/m/redmi-a5/overview/kv.png',
+    imageFallbacks: ['https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-a5.jpg'],
+    brand: 'Xiaomi',
+    name: 'Redmi A5 4/128GB',
+    category: 'smartphone',
+    price: 790,
+    installment: 76,
+    oldPrice: null,
+    badge: null,
+    badgeLabel: null,
+    description: 'Versão com 4GB RAM e 128GB. Tela 6,88" HD+, bateria 5200mAh e câmera 8MP. Perfeito para o dia a dia.',
+    specs: ['Tela 6,88" HD+', '4GB RAM + 128GB', 'Câmera 8MP', 'Bateria 5200mAh', 'Android 14 Go'],
+    svg: `<svg viewBox="0 0 120 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="10" y="4" width="100" height="212" rx="18" fill="#181818" stroke="#2E2E2E" stroke-width="1.5"/>
+      <rect x="16" y="10" width="88" height="200" rx="14" fill="#111111"/>
+      <circle cx="60" cy="17" r="5" fill="#222"/>
+      <rect x="20" y="48" width="80" height="124" rx="4" fill="#0A0A0A"/>
+      <text x="60" y="115" text-anchor="middle" font-size="13" font-weight="900" fill="#F5C000" opacity="0.7" font-family="Arial">Redmi A5</text>
+      <circle cx="60" cy="198" r="5" fill="#222"/>
+    </svg>`
+  },
+  {
+    id: 8,
+    imageUrl: 'https://i01.appmifile.com/webfile/globalimg/products/m/poco-c71/overview/kv.png',
+    imageFallbacks: ['https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-c71.jpg'],
+    brand: 'Poco',
+    name: 'Poco C71 4/128GB',
+    category: 'smartphone',
+    price: 930,
+    installment: 89,
+    oldPrice: null,
+    badge: 'new',
+    badgeLabel: 'Novo',
+    description: 'Tela 6,88" HD+, câmera 50MP com IA, bateria 5160mAh e 4GB RAM. Design arrojado com ótimo desempenho para o preço.',
+    specs: ['Tela 6,88" HD+', '4GB RAM + 128GB', 'Câmera 50MP com IA', 'Bateria 5160mAh', 'Android 14'],
+    svg: `<svg viewBox="0 0 120 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="10" y="4" width="100" height="212" rx="18" fill="#141414" stroke="#282828" stroke-width="1.5"/>
+      <rect x="16" y="10" width="88" height="200" rx="14" fill="#0E0E0E"/>
+      <circle cx="60" cy="17" r="5" fill="#1A1A1A"/>
+      <rect x="20" y="48" width="80" height="124" rx="4" fill="#090909"/>
+      <text x="60" y="108" text-anchor="middle" font-size="14" font-weight="900" fill="#F5C000" opacity="0.7" font-family="Arial">POCO</text>
+      <text x="60" y="124" text-anchor="middle" font-size="12" font-weight="700" fill="#F5C000" opacity="0.5" font-family="Arial">C71</text>
+      <circle cx="60" cy="198" r="5" fill="#222"/>
+    </svg>`
+  },
+  {
+    id: 9,
+    imageUrl: 'https://i01.appmifile.com/webfile/globalimg/products/m/redmi-note-14/overview/kv.png',
+    imageFallbacks: ['https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-14.jpg'],
+    brand: 'Xiaomi',
+    name: 'Redmi Note 14 6/128GB',
+    category: 'smartphone',
+    price: 1160,
+    installment: 112,
+    oldPrice: null,
+    badge: null,
+    badgeLabel: null,
+    description: 'Tela AMOLED 6,67" 120Hz, câmera 108MP, 6GB RAM e carregamento 33W. Desempenho e câmera de alto nível.',
+    specs: ['Tela 6,67" AMOLED 120Hz', '6GB RAM + 128GB', 'Câmera 108MP', 'Bateria 5110mAh 33W', 'Android 14'],
+    svg: `<svg viewBox="0 0 120 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="10" y="4" width="100" height="212" rx="18" fill="#1A2030" stroke="#2A3040" stroke-width="1.5"/>
+      <rect x="16" y="10" width="88" height="200" rx="14" fill="#101520"/>
+      <circle cx="60" cy="17" r="5" fill="#1E2530"/>
+      <rect x="20" y="48" width="80" height="124" rx="4" fill="#0A0F18"/>
+      <text x="60" y="108" text-anchor="middle" font-size="13" font-weight="900" fill="#F5C000" opacity="0.7" font-family="Arial">Note 14</text>
+      <text x="60" y="124" text-anchor="middle" font-size="10" font-weight="600" fill="#F5C000" opacity="0.4" font-family="Arial">6/128GB</text>
+      <circle cx="60" cy="198" r="5" fill="#222"/>
+    </svg>`
+  },
+  {
+    id: 10,
+    imageUrl: 'https://i01.appmifile.com/webfile/globalimg/products/m/redmi-note-14/overview/kv.png',
+    imageFallbacks: ['https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-14.jpg'],
+    brand: 'Xiaomi',
+    name: 'Redmi Note 14 8/256GB',
+    category: 'smartphone',
+    price: 1290,
+    installment: 124,
+    oldPrice: null,
+    badge: 'hot',
+    badgeLabel: '🔥 Mais vendido',
+    description: 'Tela AMOLED 6,67" 120Hz, câmera 108MP, 8GB RAM e armazenamento 256GB. Um dos melhores custo-benefício da linha.',
+    specs: ['Tela 6,67" AMOLED 120Hz', '8GB RAM + 256GB', 'Câmera 108MP', 'Bateria 5110mAh 33W', 'Android 14'],
+    svg: `<svg viewBox="0 0 120 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="10" y="4" width="100" height="212" rx="18" fill="#141414" stroke="#282828" stroke-width="1.5"/>
+      <rect x="16" y="10" width="88" height="200" rx="14" fill="#0E0E0E"/>
+      <circle cx="60" cy="17" r="5" fill="#1A1A1A"/>
+      <rect x="20" y="48" width="80" height="124" rx="4" fill="#090909"/>
+      <text x="60" y="108" text-anchor="middle" font-size="13" font-weight="900" fill="#F5C000" opacity="0.7" font-family="Arial">Note 14</text>
+      <text x="60" y="124" text-anchor="middle" font-size="10" font-weight="600" fill="#F5C000" opacity="0.4" font-family="Arial">8/256GB</text>
+      <circle cx="60" cy="198" r="5" fill="#222"/>
+    </svg>`
+  },
+  {
+    id: 11,
+    imageUrl: 'https://i01.appmifile.com/webfile/globalimg/products/m/redmi-note-15-pro/overview/kv.png',
+    imageFallbacks: ['https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-15-pro.jpg'],
+    brand: 'Xiaomi',
+    name: 'Redmi Note 15 Pro 8/256GB',
+    category: 'smartphone',
+    price: 1890,
+    installment: 181,
+    oldPrice: null,
+    badge: 'new',
+    badgeLabel: 'Novo',
+    description: 'Tela AMOLED 6,67" 144Hz 5G, câmera 200MP, Snapdragon 7s Gen 3, 8GB RAM e carregamento turbo 90W.',
+    specs: ['Tela 6,67" AMOLED 144Hz', '8GB RAM + 256GB', 'Câmera 200MP', 'Carregamento 90W · 5G', 'Android 15'],
+    svg: `<svg viewBox="0 0 120 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="10" y="4" width="100" height="212" rx="18" fill="#1A1A1A" stroke="#2E2E2E" stroke-width="1.5"/>
+      <rect x="16" y="10" width="88" height="200" rx="14" fill="#111111"/>
+      <circle cx="60" cy="17" r="5" fill="#222"/>
+      <rect x="20" y="48" width="80" height="124" rx="4" fill="#0A0A0A"/>
+      <text x="60" y="105" text-anchor="middle" font-size="12" font-weight="900" fill="#F5C000" opacity="0.7" font-family="Arial">Note 15</text>
+      <text x="60" y="120" text-anchor="middle" font-size="11" font-weight="700" fill="#F5C000" opacity="0.5" font-family="Arial">Pro 5G</text>
+      <circle cx="60" cy="198" r="5" fill="#222"/>
+    </svg>`
+  },
+  {
+    id: 12,
+    imageUrl: 'https://i01.appmifile.com/webfile/globalimg/products/m/poco-x7-pro/overview/kv.png',
+    imageFallbacks: ['https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-x7-pro.jpg'],
+    brand: 'Poco',
+    name: 'Poco X7 Pro 12/512GB',
+    category: 'smartphone',
+    price: 2490,
+    installment: 239,
+    oldPrice: null,
+    badge: 'new',
+    badgeLabel: 'Novo',
+    description: 'Tela AMOLED 6,67" 144Hz 5G, Dimensity 8400 Ultra, câmera 50MP OIS, 12GB RAM e 512GB. O top de linha da linha Poco.',
+    specs: ['Tela 6,67" AMOLED 144Hz', '12GB RAM + 512GB', 'Câmera 50MP OIS + 8MP', 'Bateria 6000mAh 90W · 5G', 'Android 15'],
+    svg: `<svg viewBox="0 0 120 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="10" y="4" width="100" height="212" rx="18" fill="#162014" stroke="#243022" stroke-width="1.5"/>
+      <rect x="16" y="10" width="88" height="200" rx="14" fill="#0E160C"/>
+      <circle cx="60" cy="17" r="5" fill="#1A2418"/>
+      <rect x="20" y="48" width="80" height="124" rx="4" fill="#080E06"/>
+      <text x="60" y="108" text-anchor="middle" font-size="14" font-weight="900" fill="#F5C000" opacity="0.7" font-family="Arial">X7 Pro</text>
+      <text x="60" y="124" text-anchor="middle" font-size="10" font-weight="600" fill="#F5C000" opacity="0.4" font-family="Arial">12/512GB</text>
+      <circle cx="60" cy="198" r="5" fill="#222"/>
+    </svg>`
+  },
+  {
+    id: 13,
+    imageUrl: 'https://i01.appmifile.com/webfile/globalimg/products/m/redmi-15c/overview/kv.png',
+    imageFallbacks: ['https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-15c.jpg'],
+    brand: 'Xiaomi',
+    name: 'Redmi 15C 4/256GB',
+    category: 'smartphone',
+    price: 1090,
+    installment: 104,
+    oldPrice: null,
+    badge: null,
+    badgeLabel: null,
+    description: 'Tela 6,88" HD+, câmera 50MP com IA, bateria 5160mAh, 4GB RAM e 256GB de armazenamento. Ótimo para o cotidiano.',
+    specs: ['Tela 6,88" HD+', '4GB RAM + 256GB', 'Câmera 50MP com IA', 'Bateria 5160mAh', 'Android 14'],
+    svg: `<svg viewBox="0 0 120 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="10" y="4" width="100" height="212" rx="18" fill="#1A2A3A" stroke="#2A3A4A" stroke-width="1.5"/>
+      <rect x="16" y="10" width="88" height="200" rx="14" fill="#101E2C"/>
+      <circle cx="60" cy="17" r="5" fill="#1E2A3A"/>
+      <rect x="20" y="48" width="80" height="124" rx="4" fill="#0A1420"/>
+      <text x="60" y="108" text-anchor="middle" font-size="14" font-weight="900" fill="#F5C000" opacity="0.7" font-family="Arial">Redmi</text>
+      <text x="60" y="124" text-anchor="middle" font-size="12" font-weight="700" fill="#F5C000" opacity="0.5" font-family="Arial">15C</text>
+      <circle cx="60" cy="198" r="5" fill="#222"/>
+    </svg>`
+  },
+  /* ── REALME ───────────────────────────────────────────── */
+  {
+    id: 14,
+    imageUrl: 'https://image01.realme.net/general/20240901/1725177600000.png',
+    imageFallbacks: ['https://fdn2.gsmarena.com/vv/bigpic/realme-note-60.jpg'],
+    brand: 'Realme',
+    name: 'Note 60 4/128GB',
+    category: 'smartphone',
+    price: 790,
+    installment: 75,
+    oldPrice: null,
+    badge: null,
+    badgeLabel: null,
+    description: 'Tela 6,74" LCD, câmera 32MP, bateria 5000mAh e 4GB RAM. Design elegante e boa autonomia para o dia a dia.',
+    specs: ['Tela 6,74" HD+', '4GB RAM + 128GB', 'Câmera 32MP + 0.3MP', 'Bateria 5000mAh', 'Android 14'],
+    svg: `<svg viewBox="0 0 120 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="10" y="4" width="100" height="212" rx="18" fill="#161620" stroke="#26263A" stroke-width="1.5"/>
+      <rect x="16" y="10" width="88" height="200" rx="14" fill="#101018"/>
+      <circle cx="60" cy="17" r="5" fill="#1A1A28"/>
+      <rect x="20" y="48" width="80" height="124" rx="4" fill="#0A0A10"/>
+      <text x="60" y="108" text-anchor="middle" font-size="13" font-weight="900" fill="#F5C000" opacity="0.7" font-family="Arial">Note 60</text>
+      <text x="60" y="124" text-anchor="middle" font-size="10" font-weight="600" fill="#F5C000" opacity="0.4" font-family="Arial">4/128GB</text>
+      <circle cx="60" cy="198" r="5" fill="#222"/>
+    </svg>`
+  },
+  {
+    id: 15,
+    imageUrl: 'https://image01.realme.net/general/20240901/1725177600000.png',
+    imageFallbacks: ['https://fdn2.gsmarena.com/vv/bigpic/realme-note-60.jpg'],
+    brand: 'Realme',
+    name: 'Note 60 4/256GB',
+    category: 'smartphone',
+    price: 890,
+    installment: 85,
+    oldPrice: null,
+    badge: null,
+    badgeLabel: null,
+    description: 'Versão 256GB com tela 6,74" LCD, câmera 32MP e bateria 5000mAh. Mais armazenamento para guardar tudo.',
+    specs: ['Tela 6,74" HD+', '4GB RAM + 256GB', 'Câmera 32MP + 0.3MP', 'Bateria 5000mAh', 'Android 14'],
+    svg: `<svg viewBox="0 0 120 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="10" y="4" width="100" height="212" rx="18" fill="#161620" stroke="#26263A" stroke-width="1.5"/>
+      <rect x="16" y="10" width="88" height="200" rx="14" fill="#101018"/>
+      <circle cx="60" cy="17" r="5" fill="#1A1A28"/>
+      <rect x="20" y="48" width="80" height="124" rx="4" fill="#0A0A10"/>
+      <text x="60" y="108" text-anchor="middle" font-size="13" font-weight="900" fill="#F5C000" opacity="0.7" font-family="Arial">Note 60</text>
+      <text x="60" y="124" text-anchor="middle" font-size="10" font-weight="600" fill="#F5C000" opacity="0.4" font-family="Arial">4/256GB</text>
+      <circle cx="60" cy="198" r="5" fill="#222"/>
+    </svg>`
+  },
+  {
+    id: 16,
+    imageUrl: 'https://image01.realme.net/general/20241101/1730352000000.png',
+    imageFallbacks: ['https://fdn2.gsmarena.com/vv/bigpic/realme-note-70.jpg'],
+    brand: 'Realme',
+    name: 'Note 70 4/128GB',
+    category: 'smartphone',
+    price: 960,
+    installment: 92,
+    oldPrice: null,
+    badge: null,
+    badgeLabel: null,
+    description: 'Tela 6,67" HD+ 90Hz, câmera 50MP, bateria 5000mAh e design arrojado. Equilíbrio perfeito entre desempenho e preço.',
+    specs: ['Tela 6,67" HD+ 90Hz', '4GB RAM + 128GB', 'Câmera 50MP', 'Bateria 5000mAh', 'Android 14'],
+    svg: `<svg viewBox="0 0 120 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="10" y="4" width="100" height="212" rx="18" fill="#141414" stroke="#282828" stroke-width="1.5"/>
+      <rect x="16" y="10" width="88" height="200" rx="14" fill="#0E0E0E"/>
+      <circle cx="60" cy="17" r="5" fill="#1A1A1A"/>
+      <rect x="20" y="48" width="80" height="124" rx="4" fill="#090909"/>
+      <text x="60" y="108" text-anchor="middle" font-size="13" font-weight="900" fill="#F5C000" opacity="0.7" font-family="Arial">Note 70</text>
+      <text x="60" y="124" text-anchor="middle" font-size="10" font-weight="600" fill="#F5C000" opacity="0.4" font-family="Arial">4/128GB</text>
+      <circle cx="60" cy="198" r="5" fill="#222"/>
+    </svg>`
+  },
+  {
+    id: 17,
+    imageUrl: 'https://image01.realme.net/general/20250101/1735689600000.png',
+    imageFallbacks: ['https://fdn2.gsmarena.com/vv/bigpic/realme-c75.jpg'],
+    brand: 'Realme',
+    name: 'Realme C75 8/256GB',
+    category: 'smartphone',
+    price: 1290,
+    installment: 123,
+    oldPrice: null,
+    badge: 'new',
+    badgeLabel: 'Novo',
+    description: 'Tela 6,72" FHD+ 120Hz, câmera 50MP, 8GB RAM, bateria 6000mAh e carregamento 45W. Design premium dourado.',
+    specs: ['Tela 6,72" FHD+ 120Hz', '8GB RAM + 256GB', 'Câmera 50MP', 'Bateria 6000mAh 45W', 'Android 14'],
+    svg: `<svg viewBox="0 0 120 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="10" y="4" width="100" height="212" rx="18" fill="#2A2410" stroke="#3A3420" stroke-width="1.5"/>
+      <rect x="16" y="10" width="88" height="200" rx="14" fill="#1E1A08"/>
+      <circle cx="60" cy="17" r="5" fill="#2A2410"/>
+      <rect x="20" y="48" width="80" height="124" rx="4" fill="#140E04"/>
+      <text x="60" y="108" text-anchor="middle" font-size="13" font-weight="900" fill="#F5C000" opacity="0.8" font-family="Arial">C75</text>
+      <text x="60" y="124" text-anchor="middle" font-size="10" font-weight="600" fill="#F5C000" opacity="0.5" font-family="Arial">8/256GB</text>
+      <circle cx="60" cy="198" r="5" fill="#222"/>
+    </svg>`
+  }
+];
+
+/* ════════════════════════════════════════════════════════════
+   HELPERS
+════════════════════════════════════════════════════════════ */
+function waLink(msg) {
+  return `https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(msg)}`;
+}
+
+function formatPrice(n) {
+  return n.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+}
+
+function getBadgeHTML(badge, label) {
+  if (!badge || !label) return '';
+  const cls = { hot: 'prod-card__badge--hot', new: 'prod-card__badge--new', offer: 'prod-card__badge--offer' }[badge] || '';
+  return `<span class="prod-card__badge ${cls}">${label}</span>`;
+}
+
+/* ════════════════════════════════════════════════════════════
+   RENDER PRODUCTS
+════════════════════════════════════════════════════════════ */
+function renderProducts(list) {
+  const grid = document.getElementById('productsGrid');
+  if (!grid) return;
+
+  if (!list.length) {
+    grid.innerHTML = `
+      <div class="products__empty">
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--muted)" stroke-width="1.5" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        <p>Nenhum produto encontrado.<br/>Tente outro termo ou categoria.</p>
+      </div>`;
+    return;
+  }
+
+  grid.innerHTML = list.map(p => `
+    <article class="prod-card" data-id="${p.id}" role="button" tabindex="0" aria-label="Ver detalhes de ${p.name}">
+      <div class="prod-card__img">
+        <div class="prod-card__img-inner">
+          ${p.imageUrl
+            ? `<img
+                src="${p.imageUrl}"
+                alt="${p.name}"
+                loading="lazy"
+                data-fallbacks="${(p.imageFallbacks || []).join('|')}"
+                data-svg-fallback="1"
+                data-product-id="${p.id}"
+                onerror="(function(img){
+                  var fbs = img.dataset.fallbacks ? img.dataset.fallbacks.split('|').filter(Boolean) : [];
+                  var tried = parseInt(img.dataset.triedIndex || '0');
+                  if(tried < fbs.length){
+                    img.dataset.triedIndex = tried + 1;
+                    img.src = fbs[tried];
+                  } else {
+                    img.style.display='none';
+                    img.nextElementSibling && (img.nextElementSibling.style.display='flex');
+                  }
+                })(this)"
+              /><div class='prod-svg-fallback' style='display:none;width:100%;height:100%;align-items:center;justify-content:center;'>${p.svg}</div>`
+            : p.svg}
+        </div>
+        ${getBadgeHTML(p.badge, p.badgeLabel)}
+      </div>
+      <div class="prod-card__body">
+        <div class="prod-card__brand">${p.brand}</div>
+        <div class="prod-card__name">${p.name}</div>
+        <div class="prod-card__price-row">
+          <span class="prod-card__price">${formatPrice(p.price)}</span>
+          ${p.oldPrice ? `<span class="prod-card__price-old">${formatPrice(p.oldPrice)}</span>` : ''}
+        </div>
+        ${p.installment ? `<div style="font-size:11px;color:var(--muted);margin-top:2px;">12× de R$ ${p.installment},00</div>` : ''}
+        <div class="prod-card__cta">
+          <span class="prod-card__cta-link">Ver detalhes</span>
+          <span class="prod-card__cta-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </span>
+        </div>
+      </div>
+    </article>
+  `).join('');
+
+  // Attach card click → open modal
+  grid.querySelectorAll('.prod-card').forEach(card => {
+    const open = () => openModal(Number(card.dataset.id));
+    card.addEventListener('click', open);
+    card.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); } });
+  });
+
+  // Re-run stagger
+  grid.querySelectorAll('.prod-card').forEach((card, i) => {
+    card.style.opacity = '0';
+    card.style.transform = 'translateY(20px)';
+    card.style.transition = `opacity 0.4s ease ${i * 55}ms, transform 0.4s ease ${i * 55}ms`;
+    requestAnimationFrame(() => requestAnimationFrame(() => {
+      card.style.opacity = '1';
+      card.style.transform = 'translateY(0)';
+    }));
+  });
+}
+
+/* ════════════════════════════════════════════════════════════
+   SEARCH + FILTER
+════════════════════════════════════════════════════════════ */
+let activeFilter = 'all';
+let searchQuery  = '';
+
+function filteredProducts() {
+  return PRODUCTS.filter(p => {
+    const matchCat = activeFilter === 'all' || p.category === activeFilter;
+    const q = searchQuery.toLowerCase().trim();
+    const matchQ = !q || p.name.toLowerCase().includes(q) || p.brand.toLowerCase().includes(q);
+    return matchCat && matchQ;
+  });
+}
+
+function updateCounter(count) {
+  const el = document.getElementById('productsCount');
+  if (el) el.textContent = count === PRODUCTS.length ? `${count} produtos` : `${count} de ${PRODUCTS.length} produtos`;
+}
+
+function applyFilters() {
+  const list = filteredProducts();
+  renderProducts(list);
+  updateCounter(list.length);
+}
+
+function initSearchFilter() {
+  // Search input
+  const input = document.getElementById('productSearch');
+  if (input) {
+    input.addEventListener('input', e => {
+      searchQuery = e.target.value;
+      applyFilters();
+    });
+  }
+
+  // Clear search
+  const clearBtn = document.getElementById('searchClear');
+  if (clearBtn && input) {
+    input.addEventListener('input', () => {
+      clearBtn.style.opacity = input.value ? '1' : '0';
+      clearBtn.style.pointerEvents = input.value ? 'auto' : 'none';
+    });
+    clearBtn.addEventListener('click', () => {
+      input.value = '';
+      searchQuery = '';
+      clearBtn.style.opacity = '0';
+      clearBtn.style.pointerEvents = 'none';
+      applyFilters();
+      input.focus();
+    });
+  }
+
+  // Filter pills
+  document.querySelectorAll('.filter-pill').forEach(pill => {
+    pill.addEventListener('click', () => {
+      document.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
+      pill.classList.add('active');
+      activeFilter = pill.dataset.filter;
+      applyFilters();
+    });
+  });
+}
+
+/* ════════════════════════════════════════════════════════════
+   MODAL DE PRODUTO
+════════════════════════════════════════════════════════════ */
+function buildModal() {
+  if (document.getElementById('productModal')) return;
+
+  const modal = document.createElement('div');
+  modal.id = 'productModal';
+  modal.className = 'modal-overlay';
+  modal.setAttribute('role', 'dialog');
+  modal.setAttribute('aria-modal', 'true');
+  modal.setAttribute('aria-label', 'Detalhes do produto');
+  modal.innerHTML = `
+    <div class="modal-box">
+      <button class="modal-close" id="modalClose" aria-label="Fechar">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      </button>
+      <div class="modal-inner">
+        <div class="modal-visual" id="modalVisual"></div>
+        <div class="modal-content">
+          <div class="modal-brand"  id="modalBrand"></div>
+          <h2 class="modal-name"   id="modalName"></h2>
+          <div class="modal-price-row">
+            <span class="modal-price"    id="modalPrice"></span>
+            <span class="modal-oldprice" id="modalOldPrice"></span>
+          </div>
+          <p class="modal-desc" id="modalDesc"></p>
+          <div class="modal-specs" id="modalSpecs"></div>
+          <div class="modal-actions">
+            <a id="modalWaBtn" class="btn-primary modal-wa-btn" target="_blank" rel="noopener noreferrer">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Comprar pelo WhatsApp
+            </a>
+            <button class="btn-secondary modal-share-btn" id="modalShareBtn">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.59 13.51 6.83 3.98M15.41 6.51l-6.82 3.98"/></svg>
+              Compartilhar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>`;
+  document.body.appendChild(modal);
+
+  // Close handlers
+  document.getElementById('modalClose').addEventListener('click', closeModal);
+  modal.addEventListener('click', e => { if (e.target === modal) closeModal(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+}
+
+function openModal(id) {
+  const p = PRODUCTS.find(x => x.id === id);
+  if (!p) return;
+
+  buildModal();
+  const modal = document.getElementById('productModal');
+
+  const fallbacksStr = (p.imageFallbacks || []).join('|');
+  document.getElementById('modalVisual').innerHTML = p.imageUrl
+    ? `<img
+        src="${p.imageUrl}"
+        alt="${p.name}"
+        data-fallbacks="${fallbacksStr}"
+        style="max-width:200px;max-height:340px;object-fit:contain;animation:floatY 4s ease-in-out infinite;"
+        onerror="(function(img){
+          var fbs = img.dataset.fallbacks ? img.dataset.fallbacks.split('|').filter(Boolean) : [];
+          var tried = parseInt(img.dataset.triedIndex||'0');
+          if(tried < fbs.length){ img.dataset.triedIndex=tried+1; img.src=fbs[tried]; }
+          else { img.outerHTML='<div class=\'modal-svg-wrap\'>' + img.getAttribute('data-svg') + '</div>'; }
+        })(this)"
+        data-svg="${p.svg.replace(/"/g, '&quot;')}"
+      />`
+    : `<div class="modal-svg-wrap">${p.svg}</div>`;
+  document.getElementById('modalBrand').textContent  = p.brand;
+  document.getElementById('modalName').textContent   = p.name;
+  document.getElementById('modalPrice').textContent  = formatPrice(p.price);
+  document.getElementById('modalDesc').textContent   = p.description;
+
+  const oldEl = document.getElementById('modalOldPrice');
+  oldEl.textContent = p.oldPrice ? formatPrice(p.oldPrice) : '';
+  oldEl.style.display = p.oldPrice ? 'inline' : 'none';
+
+  document.getElementById('modalSpecs').innerHTML = p.specs.map(s =>
+    `<div class="modal-spec-item">
+       <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#F5C000" stroke-width="3" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>
+       <span>${s}</span>
+     </div>`
+  ).join('');
+
+  const msg = `Olá! Vi o *${p.name}* no site da ${CONFIG.storeName} por ${formatPrice(p.price)} e tenho interesse. Pode me passar mais informações?`;
+  document.getElementById('modalWaBtn').href = waLink(msg);
+
+  document.getElementById('modalShareBtn').onclick = () => {
+    const text = `${p.name} por ${formatPrice(p.price)} na ${CONFIG.storeName}! 📱\nVeja: ${window.location.href}`;
+    if (navigator.share) {
+      navigator.share({ title: p.name, text }).catch(() => {});
+    } else {
+      navigator.clipboard.writeText(text).then(() => {
+        const btn = document.getElementById('modalShareBtn');
+        const orig = btn.innerHTML;
+        btn.innerHTML = '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg> Copiado!';
+        setTimeout(() => { btn.innerHTML = orig; }, 2000);
+      });
+    }
+  };
+
+  modal.classList.add('open');
+  document.body.style.overflow = 'hidden';
+
+  // Trap focus
+  setTimeout(() => document.getElementById('modalClose')?.focus(), 50);
+}
+
+function closeModal() {
+  const modal = document.getElementById('productModal');
+  if (!modal) return;
+  modal.classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+/* ════════════════════════════════════════════════════════════
+   ATUALIZAR LINKS WHATSAPP & INSTAGRAM NO HTML
+════════════════════════════════════════════════════════════ */
+function patchLinks() {
+  const genericMsg = `Olá! Vim pelo site da ${CONFIG.storeName} e gostaria de mais informações.`;
+
+  // WhatsApp — respeita o número de cada loja
+  document.querySelectorAll('a[href*="wa.me"]').forEach(a => {
+    const current = a.getAttribute('href');
+    const isMagazine = current.includes(CONFIG.whatsappMagazine);
+    const targetNumber = isMagazine ? CONFIG.whatsappMagazine : CONFIG.whatsapp;
+    if (!current.includes('?text=')) {
+      a.href = `https://wa.me/${targetNumber}?text=${encodeURIComponent(genericMsg)}`;
+    } else {
+      // Só atualiza o número, preserva a mensagem
+      a.href = current.replace(/wa\.me\/\d+/, `wa.me/${targetNumber}`);
+    }
+  });
+
+  // Instagram — preserva o link correto de cada loja
+  document.querySelectorAll('a[href*="instagram.com"]').forEach(a => {
+    if (a.href.includes('carbonomagazine')) {
+      a.href = CONFIG.instagramMagazine;
+    } else {
+      a.href = CONFIG.instagram;
+    }
+  });
+}
+
+/* ════════════════════════════════════════════════════════════
+   HEADER SCROLL
+════════════════════════════════════════════════════════════ */
+(function initHeader() {
+  const header = document.getElementById('header');
+  if (!header) return;
+  const run = () => header.classList.toggle('scrolled', window.scrollY > 20);
+  window.addEventListener('scroll', run, { passive: true });
+  run();
+})();
+
+/* ════════════════════════════════════════════════════════════
+   HAMBURGER / MOBILE NAV
+════════════════════════════════════════════════════════════ */
+(function initMobileNav() {
+  const hamburger = document.getElementById('hamburger');
+  const mobileNav = document.getElementById('mobileNav');
+  if (!hamburger || !mobileNav) return;
+
+  function close() {
+    hamburger.classList.remove('open');
+    mobileNav.classList.remove('open');
+    hamburger.setAttribute('aria-expanded', 'false');
+    document.body.style.overflow = '';
+  }
+
+  hamburger.addEventListener('click', () => {
+    const isOpen = hamburger.classList.toggle('open');
+    mobileNav.classList.toggle('open', isOpen);
+    hamburger.setAttribute('aria-expanded', String(isOpen));
+    document.body.style.overflow = isOpen ? 'hidden' : '';
+  });
+
+  mobileNav.querySelectorAll('a').forEach(l => l.addEventListener('click', close));
+  document.addEventListener('click', e => {
+    if (!hamburger.contains(e.target) && !mobileNav.contains(e.target)) close();
+  });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') close(); });
+})();
+
+/* ════════════════════════════════════════════════════════════
+   SCROLL-SPY
+════════════════════════════════════════════════════════════ */
+(function initScrollSpy() {
+  const sections = document.querySelectorAll('section[id]');
+  const navLinks = document.querySelectorAll('.nav a, .mobile-nav a');
+  if (!navLinks.length) return;
+
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (!e.isIntersecting) return;
+      navLinks.forEach(l => l.classList.toggle('active', l.getAttribute('href') === '#' + e.target.id));
+    });
+  }, { rootMargin: '-40% 0px -55% 0px' });
+
+  sections.forEach(s => obs.observe(s));
+
+  const style = document.createElement('style');
+  style.textContent = `.nav a.active{color:var(--white)}.nav a.active::after{width:100%}`;
+  document.head.appendChild(style);
+})();
+
+/* ════════════════════════════════════════════════════════════
+   COUNTDOWN
+════════════════════════════════════════════════════════════ */
+(function initCountdown() {
+  const el = document.getElementById('countdown');
+  if (!el) return;
+  let total = 23 * 3600 + 59 * 60 + 47;
+  const tick = () => {
+    total = total > 0 ? total - 1 : 86399;
+    const h = String(Math.floor(total / 3600)).padStart(2, '0');
+    const m = String(Math.floor((total % 3600) / 60)).padStart(2, '0');
+    const s = String(total % 60).padStart(2, '0');
+    el.textContent = `${h}:${m}:${s}`;
+  };
+  setInterval(tick, 1000);
+  tick();
+})();
+
+/* ════════════════════════════════════════════════════════════
+   SCROLL REVEAL
+════════════════════════════════════════════════════════════ */
+(function initReveal() {
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    document.querySelectorAll('.reveal').forEach(el => el.classList.add('visible'));
+    return;
+  }
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (!e.isIntersecting) return;
+      e.target.classList.add('visible');
+      obs.unobserve(e.target);
+    });
+  }, { threshold: 0.10, rootMargin: '0px 0px -40px 0px' });
+  document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+})();
+
+/* ════════════════════════════════════════════════════════════
+   SMOOTH SCROLL
+════════════════════════════════════════════════════════════ */
+(function initSmoothScroll() {
+  document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', e => {
+      const id = a.getAttribute('href').slice(1);
+      if (!id) return;
+      const target = document.getElementById(id);
+      if (!target) return;
+      e.preventDefault();
+      window.scrollTo({ top: target.getBoundingClientRect().top + window.scrollY - 68, behavior: 'smooth' });
+    });
+  });
+})();
+
+/* ════════════════════════════════════════════════════════════
+   BACK TO TOP
+════════════════════════════════════════════════════════════ */
+(function initBackToTop() {
+  const btn = document.getElementById('backToTop');
+  if (!btn) return;
+  window.addEventListener('scroll', () => btn.classList.toggle('visible', window.scrollY > 600), { passive: true });
+  btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+})();
+
+/* ════════════════════════════════════════════════════════════
+   RIPPLE
+════════════════════════════════════════════════════════════ */
+(function initRipple() {
+  const style = document.createElement('style');
+  style.textContent = `@keyframes rippleAnim{to{transform:scale(2.5);opacity:0}}`;
+  document.head.appendChild(style);
+
+  document.addEventListener('click', e => {
+    const card = e.target.closest('.cat-card');
+    if (!card) return;
+    const r = document.createElement('span');
+    const rect = card.getBoundingClientRect();
+    const size = Math.max(rect.width, rect.height);
+    r.style.cssText = `position:absolute;width:${size}px;height:${size}px;top:${e.clientY-rect.top-size/2}px;left:${e.clientX-rect.left-size/2}px;border-radius:50%;background:rgba(245,192,0,0.12);transform:scale(0);animation:rippleAnim .5s ease-out forwards;pointer-events:none;z-index:10;`;
+    card.style.position = 'relative';
+    card.appendChild(r);
+    setTimeout(() => r.remove(), 600);
+  });
+})();
+
+/* ════════════════════════════════════════════════════════════
+   INIT
+════════════════════════════════════════════════════════════ */
+document.addEventListener('DOMContentLoaded', () => {
+  renderProducts(PRODUCTS);
+  updateCounter(PRODUCTS.length);
+  initSearchFilter();
+  patchLinks();
+});
+
+</script>
+</body>
+</html>
